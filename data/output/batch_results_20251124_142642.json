@@ -1,0 +1,93 @@
+{
+  "query_time": "2025-11-24 14:26:42",
+  "total_count": 3,
+  "success_count": 3,
+  "failed_count": 0,
+  "data": [
+    {
+      "hs_code": "08081000.00",
+      "product_name": "鲜苹果",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:制作或保存方法（鲜）;5:种类（蛇果、加纳果、青苹果、富士等）;6:等级;7:品牌（中文或外文名称）;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "AB",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          },
+          {
+            "code": "B",
+            "name": "出境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "P/R/Q/S",
+        "details": [
+          {
+            "code": "P",
+            "name": "进境动植物、动植物产品检疫"
+          },
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          },
+          {
+            "code": "Q",
+            "name": "出境动植物、动植物产品检疫"
+          },
+          {
+            "code": "S",
+            "name": "出口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "鲜苹果",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "hs_code": "84193990.20",
+      "product_name": "其他烟丝烘干机",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:干燥材质;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "O",
+        "details": [
+          {
+            "code": "O",
+            "name": "自动进口许可证（机电产品）"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他烟丝烘干机",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "hs_code": "85249190.10",
+      "product_name": "专用于平板电脑和笔记本电脑的带触摸屏的液晶模组",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:平面显示模组类型（液晶）;6:是否含驱动器或控制电路;7:尺寸;8:品牌（中文或外文名称）;9:型号;10:GTIN;11:CAS;12:其他;",
+      "first_unit": "个",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏)",
+      "search_success": true,
+      "error_message": ""
+    }
+  ]
+}

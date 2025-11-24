@@ -1,0 +1,21 @@
+{
+  "query_time": "2025-11-24 11:51:05",
+  "data": {
+    "hs_code": "",
+    "product_name": "",
+    "declaration_elements": "",
+    "first_unit": "",
+    "second_unit": "",
+    "customs_supervision_conditions": {
+      "code": "",
+      "details": []
+    },
+    "inspection_quarantine": {
+      "code": "",
+      "details": []
+    },
+    "description": "",
+    "search_success": true,
+    "error_message": ""
+  }
+}

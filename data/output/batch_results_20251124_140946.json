@@ -1,0 +1,98 @@
+{
+  "query_time": "2025-11-24 14:09:46",
+  "total_count": 3,
+  "success_count": 3,
+  "failed_count": 0,
+  "data": [
+    {
+      "hs_code": "20097100.00",
+      "product_name": "白利糖度值不超过20的苹果汁",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:成分含量;5:白利糖度值;6:浓缩果汁请注明浓缩倍数;7:加工方法（是否发酵、加酒精、冷冻、混合等）;8:保存方法（储藏温度）;9:包装规格;10:品牌（中文或外文名称）;11:GTIN;12:CAS;13:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "AB",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          },
+          {
+            "code": "B",
+            "name": "出境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "P/R/Q/S",
+        "details": [
+          {
+            "code": "P",
+            "name": "进境动植物、动植物产品检疫"
+          },
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          },
+          {
+            "code": "Q",
+            "name": "出境动植物、动植物产品检疫"
+          },
+          {
+            "code": "S",
+            "name": "出口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "hs_code": "85249190.10",
+      "product_name": "专用于平板电脑和笔记本电脑的带触摸屏的液晶模组",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:平面显示模组类型（液晶）;6:是否含驱动器或控制电路;7:尺寸;8:品牌（中文或外文名称）;9:型号;10:GTIN;11:CAS;12:其他;",
+      "first_unit": "个",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏)",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "hs_code": "61091000.00(增)",
+      "product_name": "棉制针织或钩编T恤衫、汗衫及其他内衣背心",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:织造方法（针织、钩编）;5:类别（男式、女式、男女同款）;6:是否有领;7:是否有扣;8:是否有拉链;9:成分含量;10:品牌（中文或外文名称）;11:货号;12:GTIN;13:CAS;14:其他;",
+      "first_unit": "件",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "M",
+        "details": [
+          {
+            "code": "M",
+            "name": "进口商品检验"
+          }
+        ]
+      },
+      "description": "棉制针织或钩编T恤衫、汗衫及其他内衣背心",
+      "search_success": true,
+      "error_message": ""
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+2025-11-24 11:50:47,596 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 11:50:47,596 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 11:50:47,597 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 11:50:47,597 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 11:50:47,598 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 11:50:48,488 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 11:50:48,488 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 11:50:48,489 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 11:50:56,826 - src.scraper - WARNING - _make_request 执行失败 (尝试 1/4): HTTPSConnectionPool(host='www.i5a6.com', port=443): Max retries exceeded with url: /hscode/key/%E7%83%98%E5%B9%B2%E6%9C%BA (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))，2秒后重试...
+2025-11-24 11:51:03,470 - src.parser - INFO - 从搜索结果中提取到 20 条记录
+2025-11-24 11:51:03,471 - src.search_optimizer - INFO - 找到最佳匹配: '烘干机' (相似度: 1.00)
+2025-11-24 11:51:03,471 - src.scraper - INFO - 找到匹配结果: 84193990 - 烘干机
+2025-11-24 11:51:03,472 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/84193990
+2025-11-24 11:51:05,247 - src.parser - INFO - 成功解析HS编码:  - 
+2025-11-24 11:51:05,247 - src.scraper - INFO - 查询成功: 烘干机 -> 
+2025-11-24 11:51:05,250 - src.storage - INFO - 单个结果已保存到: data/output\result_20251124_115105.json
+2025-11-24 11:51:05,252 - src.scraper - INFO - 会话已关闭
+2025-11-24 11:56:32,266 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 11:56:32,267 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 11:56:32,267 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 11:56:32,268 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 11:56:32,268 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 11:56:33,217 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 11:56:33,217 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 11:56:33,217 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 11:56:43,825 - src.scraper - WARNING - _make_request 执行失败 (尝试 1/4): HTTPSConnectionPool(host='www.i5a6.com', port=443): Read timed out. (read timeout=10)，2秒后重试...
+2025-11-24 11:56:51,297 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 11:56:51,298 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 11:56:51,298 - src.scraper - INFO - 使用第一个搜索结果: 84193990.20 - 1条
+2025-11-24 11:56:51,298 - src.scraper - INFO - 获取详情: https://www.i5a6.com//www.i5a6.com/hscode/detail/8419399020#sbsl
+2025-11-24 11:56:52,714 - src.parser - INFO - 成功解析HS编码:  - 
+2025-11-24 11:56:52,714 - src.scraper - WARNING - 查询失败: 烘干机，已尝试 1 个关键词
+2025-11-24 11:56:52,717 - src.scraper - INFO - 会话已关闭
+2025-11-24 12:16:35,493 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 12:16:35,493 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 12:16:35,494 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 12:16:35,495 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 12:16:35,496 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 12:16:36,423 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 12:16:36,423 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 12:16:36,424 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 12:16:44,042 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 12:16:44,043 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 12:16:44,044 - src.scraper - INFO - 使用第一个搜索结果: 84193990.20 - 1条
+2025-11-24 12:16:44,044 - src.scraper - INFO - 获取详情: https://www.i5a6.com//www.i5a6.com/hscode/detail/8419399020
+2025-11-24 12:16:45,440 - src.parser - INFO - 成功解析HS编码:  - 
+2025-11-24 12:16:45,441 - src.scraper - WARNING - 查询失败: 烘干机，已尝试 1 个关键词
+2025-11-24 12:16:45,448 - src.scraper - INFO - 会话已关闭
+2025-11-24 13:34:41,258 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 13:34:41,259 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 13:34:41,259 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 13:34:41,260 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 13:34:41,261 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 13:34:42,173 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 13:34:42,173 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 13:34:42,173 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 13:34:44,877 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 13:34:44,878 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 13:34:44,879 - src.scraper - INFO - 使用第一个搜索结果: 84193990.20 - 1条
+2025-11-24 13:34:44,879 - src.scraper - INFO - 获取详情: https://www.i5a6.com//www.i5a6.com/hscode/detail/8419399020
+2025-11-24 13:34:46,691 - src.parser - INFO - 成功解析HS编码:  - 
+2025-11-24 13:34:46,691 - src.scraper - WARNING - 查询失败: 烘干机，已尝试 1 个关键词
+2025-11-24 13:34:46,693 - src.scraper - INFO - 会话已关闭
+2025-11-24 13:38:04,089 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 13:38:04,089 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 13:38:04,090 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 13:38:04,090 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 13:38:04,090 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 13:38:05,164 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 13:38:05,164 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 13:38:05,164 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 13:38:09,799 - src.parser - INFO - 从搜索结果中提取到 17 条记录
+2025-11-24 13:38:09,800 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 13:38:09,800 - src.scraper - INFO - 使用第一个搜索结果: 84193990.20 - 查看详情
+2025-11-24 13:38:09,801 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-24 13:38:11,523 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-24 13:38:11,525 - src.scraper - INFO - 查询成功: 烘干机 -> 84193990.20
+2025-11-24 13:38:11,540 - src.storage - INFO - 单个结果已保存到: data/output\test_fix_001.json
+2025-11-24 13:38:11,552 - src.scraper - INFO - 会话已关闭
+2025-11-24 13:56:06,600 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 13:56:06,601 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 13:56:06,601 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 13:56:06,602 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 13:56:06,603 - src.scraper - INFO - 开始批量查询，共 3 个商品
+2025-11-24 13:56:06,603 - src.scraper - INFO - 处理 1/3: 苹果
+2025-11-24 13:56:06,603 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 13:56:07,606 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 13:56:07,606 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 13:56:07,607 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 13:56:10,737 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 13:56:10,738 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 13:56:10,738 - src.scraper - INFO - 使用第一个搜索结果: 20097100.00 - 查看详情
+2025-11-24 13:56:10,739 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-24 13:56:12,427 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-24 13:56:12,428 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-24 13:56:12,429 - src.scraper - INFO - 处理 2/3: 笔记本电脑
+2025-11-24 13:56:12,429 - src.scraper - INFO - 开始查询商品: 笔记本电脑
+2025-11-24 13:56:12,430 - src.search_optimizer - INFO - 为 '笔记本电脑' 生成了 1 个搜索关键词: ['笔记本电脑']
+2025-11-24 13:56:12,430 - src.scraper - INFO - 尝试关键词 1/1: 笔记本电脑
+2025-11-24 13:56:12,430 - src.scraper - INFO - 搜索关键词: 笔记本电脑
+2025-11-24 13:56:14,684 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-24 13:56:14,685 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 13:56:14,685 - src.scraper - INFO - 使用第一个搜索结果: 85249190.10 - 查看详情
+2025-11-24 13:56:14,686 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8524919010
+2025-11-24 13:56:16,834 - src.parser - INFO - 成功解析HS编码: 85249190.10 - 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组
+2025-11-24 13:56:16,835 - src.scraper - INFO - 查询成功: 笔记本电脑 -> 85249190.10
+2025-11-24 13:56:16,835 - src.scraper - INFO - 处理 3/3: T恤
+2025-11-24 13:56:16,835 - src.scraper - INFO - 开始查询商品: T恤
+2025-11-24 13:56:16,836 - src.search_optimizer - INFO - 为 'T恤' 生成了 1 个搜索关键词: ['T恤']
+2025-11-24 13:56:16,836 - src.scraper - INFO - 尝试关键词 1/1: T恤
+2025-11-24 13:56:16,837 - src.scraper - INFO - 搜索关键词: T恤
+2025-11-24 13:56:18,491 - src.parser - INFO - 从搜索结果中提取到 15 条记录
+2025-11-24 13:56:18,491 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 13:56:18,492 - src.scraper - INFO - 使用第一个搜索结果: 61091000.00 - 查看详情
+2025-11-24 13:56:18,492 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/6109100000
+2025-11-24 13:56:20,981 - src.parser - INFO - 成功解析HS编码: 61091000.00(增) - 棉制针织或钩编T恤衫、汗衫及其他内衣背心
+2025-11-24 13:56:20,982 - src.scraper - INFO - 查询成功: T恤 -> 61091000.00(增)
+2025-11-24 13:56:20,982 - src.scraper - INFO - 批量查询完成，成功: 3/3
+2025-11-24 13:56:20,984 - src.storage - INFO - 批量结果已保存到: data/output\batch_results_20251124_135620.json
+2025-11-24 13:56:20,985 - src.storage - INFO - 统计: 总数=3, 成功=3, 失败=0
+2025-11-24 13:56:20,987 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:08:41,580 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:08:41,580 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:08:41,581 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:08:41,581 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:08:41,582 - src.scraper - INFO - 根据HS编码查询: 84193990.20
+2025-11-24 14:08:41,583 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-24 14:08:49,179 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-24 14:08:49,182 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:08:57,603 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:08:57,604 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:08:57,604 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:08:57,605 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:08:57,605 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 14:08:58,590 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 14:08:58,591 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 14:08:58,591 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 14:09:13,073 - src.scraper - WARNING - _make_request 执行失败 (尝试 1/4): HTTPSConnectionPool(host='www.i5a6.com', port=443): Read timed out. (read timeout=10)，2秒后重试...
+2025-11-24 14:09:21,519 - src.parser - INFO - 从搜索结果中提取到 17 条记录
+2025-11-24 14:09:21,520 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:09:21,520 - src.scraper - INFO - 使用第一个搜索结果: 84193990.20 - 查看详情
+2025-11-24 14:09:21,521 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-24 14:09:24,721 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-24 14:09:24,721 - src.scraper - INFO - 查询成功: 烘干机 -> 84193990.20
+2025-11-24 14:09:24,724 - src.storage - INFO - 单个结果已保存到: data/output\hs_84193990_20.json
+2025-11-24 14:09:24,726 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:09:24,727 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:09:24,727 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:09:24,728 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:09:24,729 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:09:24,729 - src.scraper - INFO - 开始批量查询，共 3 个商品
+2025-11-24 14:09:24,730 - src.scraper - INFO - 处理 1/3: 苹果
+2025-11-24 14:09:24,730 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:09:24,731 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:09:24,733 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:09:24,733 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:09:29,841 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:09:29,842 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:09:29,843 - src.scraper - INFO - 使用第一个搜索结果: 20097100.00 - 查看详情
+2025-11-24 14:09:29,843 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-24 14:09:32,725 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-24 14:09:32,726 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-24 14:09:32,726 - src.scraper - INFO - 处理 2/3: 笔记本电脑
+2025-11-24 14:09:32,726 - src.scraper - INFO - 开始查询商品: 笔记本电脑
+2025-11-24 14:09:32,727 - src.search_optimizer - INFO - 为 '笔记本电脑' 生成了 1 个搜索关键词: ['笔记本电脑']
+2025-11-24 14:09:32,727 - src.scraper - INFO - 尝试关键词 1/1: 笔记本电脑
+2025-11-24 14:09:32,728 - src.scraper - INFO - 搜索关键词: 笔记本电脑
+2025-11-24 14:09:35,280 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-24 14:09:35,282 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:09:35,282 - src.scraper - INFO - 使用第一个搜索结果: 85249190.10 - 查看详情
+2025-11-24 14:09:35,283 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8524919010
+2025-11-24 14:09:37,291 - src.parser - INFO - 成功解析HS编码: 85249190.10 - 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组
+2025-11-24 14:09:37,292 - src.scraper - INFO - 查询成功: 笔记本电脑 -> 85249190.10
+2025-11-24 14:09:37,292 - src.scraper - INFO - 处理 3/3: T恤
+2025-11-24 14:09:37,293 - src.scraper - INFO - 开始查询商品: T恤
+2025-11-24 14:09:37,294 - src.search_optimizer - INFO - 为 'T恤' 生成了 1 个搜索关键词: ['T恤']
+2025-11-24 14:09:37,294 - src.scraper - INFO - 尝试关键词 1/1: T恤
+2025-11-24 14:09:37,294 - src.scraper - INFO - 搜索关键词: T恤
+2025-11-24 14:09:39,207 - src.parser - INFO - 从搜索结果中提取到 15 条记录
+2025-11-24 14:09:39,208 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:09:39,208 - src.scraper - INFO - 使用第一个搜索结果: 61091000.00 - 查看详情
+2025-11-24 14:09:39,209 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/6109100000
+2025-11-24 14:09:46,422 - src.parser - INFO - 成功解析HS编码: 61091000.00(增) - 棉制针织或钩编T恤衫、汗衫及其他内衣背心
+2025-11-24 14:09:46,422 - src.scraper - INFO - 查询成功: T恤 -> 61091000.00(增)
+2025-11-24 14:09:46,423 - src.scraper - INFO - 批量查询完成，成功: 3/3
+2025-11-24 14:09:46,424 - src.storage - INFO - 批量结果已保存到: data/output\batch_results_20251124_140946.json
+2025-11-24 14:09:46,425 - src.storage - INFO - 统计: 总数=3, 成功=3, 失败=0
+2025-11-24 14:09:46,427 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:09:46,428 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:09:46,429 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:09:46,429 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:09:46,431 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:09:46,431 - src.scraper - INFO - 根据HS编码查询: 84193990.20
+2025-11-24 14:09:46,432 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-24 14:09:49,758 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-24 14:09:49,760 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:17:43,189 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:17:43,191 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:17:43,192 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果' (相似度: 0.95)
+2025-11-24 14:17:43,544 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:17:43,545 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:17:43,545 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:17:43,545 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:18:15,734 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:18:15,738 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:18:15,739 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果' (相似度: 0.95)
+2025-11-24 14:18:16,209 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:18:16,209 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:18:16,210 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:18:16,210 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:18:16,211 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:18:17,250 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:18:17,251 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:18:17,252 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:18:20,125 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:18:20,125 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:18:20,126 - src.scraper - INFO - 使用第一个搜索结果: 20097100.00 - 查看详情
+2025-11-24 14:18:20,126 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-24 14:18:22,838 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-24 14:18:22,838 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-24 14:19:09,760 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:19:09,768 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:19:09,769 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果' (相似度: 0.95)
+2025-11-24 14:19:10,169 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:19:10,170 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:19:10,171 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:19:10,171 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:19:10,172 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:19:11,252 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:19:11,253 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:19:11,253 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:19:13,800 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:19:13,801 - src.search_optimizer - WARNING - 最佳匹配分数 0.00 低于最小阈值 0.6
+2025-11-24 14:19:13,801 - src.scraper - INFO - 使用第一个搜索结果: 20097100.00 - 查看详情
+2025-11-24 14:19:13,801 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-24 14:19:15,605 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-24 14:19:15,605 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-24 14:19:15,608 - src.storage - INFO - 单个结果已保存到: data/output\test_fix_002
+2025-11-24 14:23:45,883 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:23:45,885 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:23:45,886 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:23:45,886 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:23:46,895 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:23:46,895 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:23:46,896 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:23:50,364 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:23:50,364 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果(鲜苹果)[Apples, fresh]' (相似度: 0.86)
+2025-11-24 14:23:50,365 - src.scraper - INFO - 找到匹配结果: 08081000.00 - 鲜苹果(鲜苹果)[Apples, fresh]
+2025-11-24 14:23:50,365 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0808100000
+2025-11-24 14:23:51,778 - src.parser - INFO - 成功解析HS编码: 08081000.00 - 鲜苹果
+2025-11-24 14:23:51,778 - src.scraper - INFO - 查询成功: 苹果 -> 08081000.00
+2025-11-24 14:24:14,411 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:24:14,418 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:24:14,419 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果' (相似度: 0.95)
+2025-11-24 14:24:14,788 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:24:14,788 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:24:14,789 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:24:14,789 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:24:14,789 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:24:15,777 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:24:15,778 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:24:15,778 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:24:18,556 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:24:18,557 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果(鲜苹果)[Apples, fresh]' (相似度: 0.86)
+2025-11-24 14:24:18,558 - src.scraper - INFO - 找到匹配结果: 08081000.00 - 鲜苹果(鲜苹果)[Apples, fresh]
+2025-11-24 14:24:18,558 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0808100000
+2025-11-24 14:24:20,087 - src.parser - INFO - 成功解析HS编码: 08081000.00 - 鲜苹果
+2025-11-24 14:24:20,087 - src.scraper - INFO - 查询成功: 苹果 -> 08081000.00
+2025-11-24 14:24:20,089 - src.storage - INFO - 单个结果已保存到: data/output\test_fix_002
+2025-11-24 14:26:29,708 - src.parser - INFO - DataParser 初始化完成
+2025-11-24 14:26:29,708 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-24 14:26:29,709 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-24 14:26:29,709 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-24 14:26:29,709 - src.scraper - INFO - 开始批量查询，共 3 个商品
+2025-11-24 14:26:29,710 - src.scraper - INFO - 处理 1/3: 苹果
+2025-11-24 14:26:29,710 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-24 14:26:30,696 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-24 14:26:30,696 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-24 14:26:30,696 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-24 14:26:34,429 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-24 14:26:34,430 - src.search_optimizer - INFO - 找到最佳匹配: '鲜苹果(鲜苹果)[Apples, fresh]' (相似度: 0.86)
+2025-11-24 14:26:34,430 - src.scraper - INFO - 找到匹配结果: 08081000.00 - 鲜苹果(鲜苹果)[Apples, fresh]
+2025-11-24 14:26:34,431 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0808100000
+2025-11-24 14:26:36,013 - src.parser - INFO - 成功解析HS编码: 08081000.00 - 鲜苹果
+2025-11-24 14:26:36,013 - src.scraper - INFO - 查询成功: 苹果 -> 08081000.00
+2025-11-24 14:26:36,013 - src.scraper - INFO - 处理 2/3: 烘干机
+2025-11-24 14:26:36,014 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-24 14:26:36,014 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-24 14:26:36,015 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-24 14:26:36,015 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-24 14:26:37,828 - src.parser - INFO - 从搜索结果中提取到 17 条记录
+2025-11-24 14:26:37,829 - src.search_optimizer - INFO - 找到最佳匹配: '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]' (相似度: 0.86)
+2025-11-24 14:26:37,829 - src.scraper - INFO - 找到匹配结果: 84193990.20 - 其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]
+2025-11-24 14:26:37,830 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-24 14:26:39,409 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-24 14:26:39,409 - src.scraper - INFO - 查询成功: 烘干机 -> 84193990.20
+2025-11-24 14:26:39,409 - src.scraper - INFO - 处理 3/3: 笔记本电脑
+2025-11-24 14:26:39,410 - src.scraper - INFO - 开始查询商品: 笔记本电脑
+2025-11-24 14:26:39,410 - src.search_optimizer - INFO - 为 '笔记本电脑' 生成了 1 个搜索关键词: ['笔记本电脑']
+2025-11-24 14:26:39,410 - src.scraper - INFO - 尝试关键词 1/1: 笔记本电脑
+2025-11-24 14:26:39,411 - src.scraper - INFO - 搜索关键词: 笔记本电脑
+2025-11-24 14:26:40,810 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-24 14:26:40,811 - src.search_optimizer - INFO - 找到最佳匹配: '专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]' (相似度: 0.86)
+2025-11-24 14:26:40,811 - src.scraper - INFO - 找到匹配结果: 85249190.10 - 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]
+2025-11-24 14:26:40,812 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8524919010
+2025-11-24 14:26:42,293 - src.parser - INFO - 成功解析HS编码: 85249190.10 - 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组
+2025-11-24 14:26:42,293 - src.scraper - INFO - 查询成功: 笔记本电脑 -> 85249190.10
+2025-11-24 14:26:42,293 - src.scraper - INFO - 批量查询完成，成功: 3/3
+2025-11-24 14:26:42,295 - src.storage - INFO - 批量结果已保存到: data/output\batch_results_20251124_142642.json
+2025-11-24 14:26:42,295 - src.storage - INFO - 统计: 总数=3, 成功=3, 失败=0
+2025-11-24 14:26:42,297 - src.scraper - INFO - 会话已关闭
+2025-11-24 14:26:42,298 - __main__ - INFO - 查询完成
