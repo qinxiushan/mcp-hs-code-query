@@ -5372,3 +5372,731 @@
 2025-11-24 17:20:13,252 - src.storage - INFO - 统计: 总数=33, 成功=27, 失败=6
 2025-11-24 17:20:13,258 - src.scraper - INFO - 会话已关闭
 2025-11-24 17:20:13,260 - __main__ - INFO - 查询完成
+2025-11-25 09:29:55,856 - src.parser - INFO - DataParser 初始化完成
+2025-11-25 09:29:55,858 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-25 09:29:55,858 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-25 09:29:55,859 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 09:29:55,861 - src.scraper - INFO - 开始批量查询，共 3 个商品
+2025-11-25 09:29:55,861 - src.scraper - INFO - 处理 1/3: 苹果手机
+2025-11-25 09:29:55,861 - src.scraper - INFO - 开始查询商品: 苹果手机
+2025-11-25 09:29:56,832 - src.search_optimizer - DEBUG - 分词结果: 苹果手机 -> ['苹果', '手机']
+2025-11-25 09:29:56,833 - src.search_optimizer - INFO - 为 '苹果手机' 生成了 4 个搜索关键词: ['苹果手机', '苹果 手机', '苹果', '手机']
+2025-11-25 09:29:56,833 - src.scraper - INFO - 尝试关键词 1/4: 苹果手机
+2025-11-25 09:29:56,833 - src.scraper - INFO - 搜索关键词: 苹果手机
+2025-11-25 09:29:56,834 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA
+2025-11-25 09:29:59,426 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3926909090', 链接文本='39269090.90'
+2025-11-25 09:29:59,427 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果手机保护套'
+2025-11-25 09:29:59,428 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3926909090', 链接文本='39269090.90'
+2025-11-25 09:29:59,429 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果手机保护套套装(4个/套)'
+2025-11-25 09:29:59,429 - src.parser - INFO - 从搜索结果中提取到 2 条记录
+2025-11-25 09:29:59,429 - src.scraper - DEBUG - 提取到的商品名称列表: ['苹果手机保护套', '苹果手机保护套套装(4个/套)']...
+2025-11-25 09:29:59,430 - src.search_optimizer - DEBUG - 相似度计算: '苹果手机' vs '苹果手机保护套' -> partial=1.00, token_sort=0.73, token_set=0.73, max=1.00
+2025-11-25 09:29:59,430 - src.search_optimizer - DEBUG - 相似度计算: '苹果手机' vs '苹果手机保护套套装(4个/套)' -> partial=1.00, token_sort=0.42, token_set=0.42, max=1.00
+2025-11-25 09:29:59,431 - src.scraper - INFO - 找到最佳匹配: '苹果手机保护套' (相似度: 1.00)
+2025-11-25 09:29:59,431 - src.scraper - DEBUG - 尝试候选 1/2: 苹果手机保护套 (相似度: 1.00)
+2025-11-25 09:29:59,432 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/3926909090
+2025-11-25 09:29:59,432 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/3926909090
+2025-11-25 09:30:00,808 - src.parser - INFO - 成功解析HS编码: 39269090.90 - 其他塑料制品
+2025-11-25 09:30:00,808 - src.scraper - INFO - 查询成功: 苹果手机 -> 39269090.90
+2025-11-25 09:30:00,808 - src.scraper - INFO - 处理 2/3: 笔记本电脑
+2025-11-25 09:30:00,809 - src.scraper - INFO - 开始查询商品: 笔记本电脑
+2025-11-25 09:30:00,809 - src.search_optimizer - DEBUG - 分词结果: 笔记本电脑 -> ['笔记本电脑']
+2025-11-25 09:30:00,809 - src.search_optimizer - INFO - 为 '笔记本电脑' 生成了 1 个搜索关键词: ['笔记本电脑']
+2025-11-25 09:30:00,810 - src.scraper - INFO - 尝试关键词 1/1: 笔记本电脑
+2025-11-25 09:30:00,810 - src.scraper - INFO - 搜索关键词: 笔记本电脑
+2025-11-25 09:30:00,810 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91
+2025-11-25 09:30:02,192 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8524919010', 链接文本='查看详情'
+2025-11-25 09:30:02,192 - src.parser - DEBUG - 从表格第2列获取商品名: '专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]'
+2025-11-25 09:30:02,193 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3506100090', 链接文本='35061000.90'
+2025-11-25 09:30:02,193 - src.parser - DEBUG - 从表格第2列获取商品名: '测试后双面胶'
+2025-11-25 09:30:02,194 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3824909990', 链接文本='38249099.90'
+2025-11-25 09:30:02,194 - src.parser - DEBUG - 从表格第2列获取商品名: '导热胶带'
+2025-11-25 09:30:02,195 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,196 - src.parser - DEBUG - 从表格第2列获取商品名: '塑料标签(已印制)'
+2025-11-25 09:30:02,196 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,197 - src.parser - DEBUG - 从表格第2列获取商品名: '塑胶件'
+2025-11-25 09:30:02,197 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,198 - src.parser - DEBUG - 从表格第2列获取商品名: '笔记本电脑用自粘型胶带'
+2025-11-25 09:30:02,199 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,200 - src.parser - DEBUG - 从表格第2列获取商品名: '小标牌/PC'
+2025-11-25 09:30:02,200 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,201 - src.parser - DEBUG - 从表格第2列获取商品名: 'PC标签'
+2025-11-25 09:30:02,201 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,202 - src.parser - DEBUG - 从表格第2列获取商品名: '笔记本电脑用自粘型胶卷'
+2025-11-25 09:30:02,202 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,203 - src.parser - DEBUG - 从表格第2列获取商品名: '自粘性塑料贴片/背胶'
+2025-11-25 09:30:02,203 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,203 - src.parser - DEBUG - 从表格第2列获取商品名: '缓冲泡棉'
+2025-11-25 09:30:02,204 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,204 - src.parser - DEBUG - 从表格第2列获取商品名: '保护片'
+2025-11-25 09:30:02,205 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,205 - src.parser - DEBUG - 从表格第2列获取商品名: '塑料铭板'
+2025-11-25 09:30:02,206 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,207 - src.parser - DEBUG - 从表格第2列获取商品名: '小标牌'
+2025-11-25 09:30:02,207 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,207 - src.parser - DEBUG - 从表格第2列获取商品名: '笔记本电脑保护膜'
+2025-11-25 09:30:02,208 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3919909000', 链接文本='39199090.00'
+2025-11-25 09:30:02,208 - src.parser - DEBUG - 从表格第2列获取商品名: '粘贴片'
+2025-11-25 09:30:02,209 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-25 09:30:02,209 - src.scraper - DEBUG - 提取到的商品名称列表: ['专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]', '测试后双面胶', '导热胶带', '塑料标签(已印制)', '塑胶件']...
+2025-11-25 09:30:02,209 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]' -> partial=1.00, token_sort=0.07, token_set=0.07, max=1.00
+2025-11-25 09:30:02,210 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '测试后双面胶' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,210 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '导热胶带' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,211 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '塑料标签(已印制)' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,211 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '塑胶件' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,212 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '笔记本电脑用自粘型胶带' -> partial=1.00, token_sort=0.62, token_set=0.62, max=1.00
+2025-11-25 09:30:02,212 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '小标牌/PC' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,212 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs 'PC标签' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,213 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '笔记本电脑用自粘型胶卷' -> partial=1.00, token_sort=0.62, token_set=0.62, max=1.00
+2025-11-25 09:30:02,213 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '自粘性塑料贴片/背胶' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,214 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '缓冲泡棉' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,214 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '保护片' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,216 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '塑料铭板' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,217 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '小标牌' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,217 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '笔记本电脑保护膜' -> partial=1.00, token_sort=0.77, token_set=0.77, max=1.00
+2025-11-25 09:30:02,218 - src.search_optimizer - DEBUG - 相似度计算: '笔记本电脑' vs '粘贴片' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:30:02,218 - src.scraper - INFO - 找到最佳匹配: '专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops]' (相似度: 1.00)
+2025-11-25 09:30:02,219 - src.scraper - DEBUG - 尝试候选 1/16: 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(专用于平板电脑和笔记本电脑的带触摸屏的液晶模组(含驱动器或控制电路，不论是否装有触摸屏))[LCD module with touch screen specifically designed for tablets and laptops] (相似度: 1.00)
+2025-11-25 09:30:02,219 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8524919010
+2025-11-25 09:30:02,219 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/8524919010
+2025-11-25 09:30:03,589 - src.parser - INFO - 成功解析HS编码: 85249190.10 - 专用于平板电脑和笔记本电脑的带触摸屏的液晶模组
+2025-11-25 09:30:03,590 - src.scraper - INFO - 查询成功: 笔记本电脑 -> 85249190.10
+2025-11-25 09:30:03,590 - src.scraper - INFO - 处理 3/3: T恤
+2025-11-25 09:30:03,590 - src.scraper - INFO - 开始查询商品: T恤
+2025-11-25 09:30:03,591 - src.search_optimizer - DEBUG - 分词结果: T恤 -> ['T恤']
+2025-11-25 09:30:03,591 - src.search_optimizer - INFO - 为 'T恤' 生成了 1 个搜索关键词: ['T恤']
+2025-11-25 09:30:03,591 - src.scraper - INFO - 尝试关键词 1/1: T恤
+2025-11-25 09:30:03,592 - src.scraper - INFO - 搜索关键词: T恤
+2025-11-25 09:30:03,592 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/T%E6%81%A4
+2025-11-25 09:30:04,973 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109100000', 链接文本='查看详情'
+2025-11-25 09:30:04,973 - src.parser - DEBUG - 从表格第2列获取商品名: '棉制针织或钩编T恤衫、汗衫及其他内衣背心(棉制针织或钩编T恤衫、汗衫及其他内衣背心)[Cotton knitted or crocheted T-shirts, undershirts, and other undergarment vests]'
+2025-11-25 09:30:04,974 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909000', 链接文本='查看详情'
+2025-11-25 09:30:04,974 - src.parser - DEBUG - 从表格第2列获取商品名: '其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心(其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心)[Other fabric-made knitted or crocheted T-shirts, undershirts, and other undergarment vests]'
+2025-11-25 09:30:04,974 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109901000', 链接文本='查看详情'
+2025-11-25 09:30:04,975 - src.parser - DEBUG - 从表格第2列获取商品名: '丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心(丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心)[Silk and silk fabric knitted or crocheted T-shirts, undershirts, and other undergarment vests]'
+2025-11-25 09:30:04,975 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909050', 链接文本='查看详情'
+2025-11-25 09:30:04,976 - src.parser - DEBUG - 从表格第2列获取商品名: '化纤制针织或钩编T恤衫(化纤制针织或钩编T恤衫内衣除外)[T-shirts,of man-made fibres,knitted or crocheted]'
+2025-11-25 09:30:04,976 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.50 - 化纤制针织或钩编T恤衫(化纤制针织或钩编T恤衫内衣除外)[T-shirts,of man-made fibres,knitted or crocheted]
+2025-11-25 09:30:04,976 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109100021', 链接文本='查看详情'
+2025-11-25 09:30:04,977 - src.parser - DEBUG - 从表格第2列获取商品名: '其他棉制针织或钩编男式T恤衫(其他棉制针织或钩编男式T恤衫内衣除外)[Other knitted or crocheted men's or boys' T-shirts, of cotton, other than underwear]'
+2025-11-25 09:30:04,977 - src.parser - DEBUG - 跳过已作废的HS编码: 61091000.21 - 其他棉制针织或钩编男式T恤衫(其他棉制针织或钩编男式T恤衫内衣除外)[Other knitted or crocheted men's or boys' T-shirts, of cotton, other than underwear]
+2025-11-25 09:30:04,979 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109100022', 链接文本='查看详情'
+2025-11-25 09:30:04,980 - src.parser - DEBUG - 从表格第2列获取商品名: '其他棉制针织或钩编女式T恤衫(其他棉制针织或钩编女式T恤衫内衣除外)[Other knitted or crocheted women's or gifts T-shirts,of cotton, other than underwear]'
+2025-11-25 09:30:04,980 - src.parser - DEBUG - 跳过已作废的HS编码: 61091000.22 - 其他棉制针织或钩编女式T恤衫(其他棉制针织或钩编女式T恤衫内衣除外)[Other knitted or crocheted women's or gifts T-shirts,of cotton, other than underwear]
+2025-11-25 09:30:04,980 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109100010', 链接文本='查看详情'
+2025-11-25 09:30:04,982 - src.parser - DEBUG - 从表格第2列获取商品名: '棉制针织或钩编T恤衫、汗衫等(棉制针织或钩编T恤衫、汗衫等内衣式,包括其他背心)[T-shirts, singlets, underwear style, and other vests, of cotton, knitted or crocheted]'
+2025-11-25 09:30:04,982 - src.parser - DEBUG - 跳过已作废的HS编码: 61091000.10 - 棉制针织或钩编T恤衫、汗衫等(棉制针织或钩编T恤衫、汗衫等内衣式,包括其他背心)[T-shirts, singlets, underwear style, and other vests, of cotton, knitted or crocheted]
+2025-11-25 09:30:04,982 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909052', 链接文本='查看详情'
+2025-11-25 09:30:04,983 - src.parser - DEBUG - 从表格第2列获取商品名: '化纤制针织或钩编女式T恤衫(内衣除外）&nbsp)'
+2025-11-25 09:30:04,983 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.52 - 化纤制针织或钩编女式T恤衫(内衣除外）&nbsp)
+2025-11-25 09:30:04,983 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909093', 链接文本='查看详情'
+2025-11-25 09:30:04,983 - src.parser - DEBUG - 从表格第2列获取商品名: '其他纺材制针织或钩编T恤衫、汗衫(其他纺材制针织或钩编T恤衫、汗衫内衣除外,包括其他背心)[Knitted or crocheted T-shirts, singlets and other vests of other textile materials, other than underwear]'
+2025-11-25 09:30:04,984 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.93 - 其他纺材制针织或钩编T恤衫、汗衫(其他纺材制针织或钩编T恤衫、汗衫内衣除外,包括其他背心)[Knitted or crocheted T-shirts, singlets and other vests of other textile materials, other than underwear]
+2025-11-25 09:30:04,986 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909051', 链接文本='查看详情'
+2025-11-25 09:30:04,986 - src.parser - DEBUG - 从表格第2列获取商品名: '化纤制针织或钩编男式T恤衫(内衣除外）&nbsp)'
+2025-11-25 09:30:04,987 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.51 - 化纤制针织或钩编男式T恤衫(内衣除外）&nbsp)
+2025-11-25 09:30:04,987 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109901091', 链接文本='查看详情'
+2025-11-25 09:30:04,987 - src.parser - DEBUG - 从表格第2列获取商品名: '其他丝及绢丝针织或钩编T恤衫、汗衫(其他丝及绢丝针织或钩编T恤衫、汗衫含丝≥70%,包括其他背心)[Other knitted or crocheted T-shirts, singlets and other vests, containing 70% or more by weight of silk or spun silk]'
+2025-11-25 09:30:04,988 - src.parser - DEBUG - 跳过已作废的HS编码: 61099010.91 - 其他丝及绢丝针织或钩编T恤衫、汗衫(其他丝及绢丝针织或钩编T恤衫、汗衫含丝≥70%,包括其他背心)[Other knitted or crocheted T-shirts, singlets and other vests, containing 70% or more by weight of silk or spun silk]
+2025-11-25 09:30:04,988 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909091', 链接文本='查看详情'
+2025-11-25 09:30:04,988 - src.parser - DEBUG - 从表格第2列获取商品名: '其他纺织材料制T恤衫.汗衫等(其他纺织材料制T恤衫.汗衫等针织或钩编,内衣式,包括其他背心)[Knitted or crocheted T-shirts, singlets and other vests, of other textile materials, underwear style]'
+2025-11-25 09:30:04,989 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.91 - 其他纺织材料制T恤衫.汗衫等(其他纺织材料制T恤衫.汗衫等针织或钩编,内衣式,包括其他背心)[Knitted or crocheted T-shirts, singlets and other vests, of other textile materials, underwear style]
+2025-11-25 09:30:04,989 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109901011', 链接文本='查看详情'
+2025-11-25 09:30:04,989 - src.parser - DEBUG - 从表格第2列获取商品名: '丝及绢丝针织或钩编T恤衫、汗衫、背心(丝及绢丝针织或钩编T恤衫、汗衫、背心 内衣式,含丝≥70%)[Knitted or crocheted T-shirts, singlets and other vests, underwear style, containing 70% or more by weight of silk or spun silk]'
+2025-11-25 09:30:04,990 - src.parser - DEBUG - 跳过已作废的HS编码: 61099010.11 - 丝及绢丝针织或钩编T恤衫、汗衫、背心(丝及绢丝针织或钩编T恤衫、汗衫、背心 内衣式,含丝≥70%)[Knitted or crocheted T-shirts, singlets and other vests, underwear style, containing 70% or more by weight of silk or spun silk]
+2025-11-25 09:30:04,990 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909011', 链接文本='查看详情'
+2025-11-25 09:30:04,991 - src.parser - DEBUG - 从表格第2列获取商品名: '毛制针织或钩编T恤衫、汗衫等(毛制针织或钩编T恤衫、汗衫等内衣式,长袖衫)[Knitted or crocheted T-shirts, singlets and other vests, underwear style, long sleeve, of wool or fine animal hair]'
+2025-11-25 09:30:04,991 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.11 - 毛制针织或钩编T恤衫、汗衫等(毛制针织或钩编T恤衫、汗衫等内衣式,长袖衫)[Knitted or crocheted T-shirts, singlets and other vests, underwear style, long sleeve, of wool or fine animal hair]
+2025-11-25 09:30:04,991 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/6109909022', 链接文本='查看详情'
+2025-11-25 09:30:04,992 - src.parser - DEBUG - 从表格第2列获取商品名: '毛制针织或钩编女式其他T恤衫(毛制针织或钩编女式其他T恤衫内衣除外)[Knitted or crocheted women's or girls' T-shirts, of wool or fine animal hair, other than underwear]'
+2025-11-25 09:30:04,992 - src.parser - DEBUG - 跳过已作废的HS编码: 61099090.22 - 毛制针织或钩编女式其他T恤衫(毛制针织或钩编女式其他T恤衫内衣除外)[Knitted or crocheted women's or girls' T-shirts, of wool or fine animal hair, other than underwear]
+2025-11-25 09:30:04,992 - src.parser - INFO - 从搜索结果中提取到 3 条记录
+2025-11-25 09:30:04,994 - src.scraper - DEBUG - 提取到的商品名称列表: ['棉制针织或钩编T恤衫、汗衫及其他内衣背心(棉制针织或钩编T恤衫、汗衫及其他内衣背心)[Cotton knitted or crocheted T-shirts, undershirts, and other undergarment vests]', '其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心(其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心)[Other fabric-made knitted or crocheted T-shirts, undershirts, and other undergarment vests]', '丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心(丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心)[Silk and silk fabric knitted or crocheted T-shirts, undershirts, and other undergarment vests]']...
+2025-11-25 09:30:04,994 - src.search_optimizer - DEBUG - 相似度计算: 'T恤' vs '棉制针织或钩编T恤衫、汗衫及其他内衣背心(棉制针织或钩编T恤衫、汗衫及其他内衣背心)[Cotton knitted or crocheted T-shirts, undershirts, and other undergarment vests]' -> partial=1.00, token_sort=0.03, token_set=0.03, max=1.00
+2025-11-25 09:30:04,995 - src.search_optimizer - DEBUG - 相似度计算: 'T恤' vs '其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心(其他纺材制针织或钩编T恤衫、汗衫及其他内衣背心)[Other fabric-made knitted or crocheted T-shirts, undershirts, and other undergarment vests]' -> partial=1.00, token_sort=0.03, token_set=0.03, max=1.00
+2025-11-25 09:30:04,997 - src.search_optimizer - DEBUG - 相似度计算: 'T恤' vs '丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心(丝及绢丝针织或钩编T恤衫、汗衫及其他内衣背心)[Silk and silk fabric knitted or crocheted T-shirts, undershirts, and other undergarment vests]' -> partial=1.00, token_sort=0.03, token_set=0.03, max=1.00
+2025-11-25 09:30:04,997 - src.scraper - INFO - 找到最佳匹配: '棉制针织或钩编T恤衫、汗衫及其他内衣背心(棉制针织或钩编T恤衫、汗衫及其他内衣背心)[Cotton knitted or crocheted T-shirts, undershirts, and other undergarment vests]' (相似度: 1.00)
+2025-11-25 09:30:05,000 - src.scraper - DEBUG - 尝试候选 1/3: 棉制针织或钩编T恤衫、汗衫及其他内衣背心(棉制针织或钩编T恤衫、汗衫及其他内衣背心)[Cotton knitted or crocheted T-shirts, undershirts, and other undergarment vests] (相似度: 1.00)
+2025-11-25 09:30:05,000 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/6109100000
+2025-11-25 09:30:05,001 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/6109100000
+2025-11-25 09:30:06,372 - src.parser - INFO - 成功解析HS编码: 61091000.00(增) - 棉制针织或钩编T恤衫、汗衫及其他内衣背心
+2025-11-25 09:30:06,373 - src.scraper - INFO - 查询成功: T恤 -> 61091000.00(增)
+2025-11-25 09:30:06,373 - src.scraper - INFO - 批量查询完成，成功: 3/3
+2025-11-25 09:30:06,375 - src.storage - INFO - 批量结果已保存到: data/output\batch_results_20251125_093006.json
+2025-11-25 09:30:06,376 - src.storage - INFO - 统计: 总数=3, 成功=3, 失败=0
+2025-11-25 09:30:06,379 - src.scraper - INFO - 会话已关闭
+2025-11-25 09:37:23,020 - src.parser - INFO - DataParser 初始化完成
+2025-11-25 09:37:23,021 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-25 09:37:23,021 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-25 09:37:23,022 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 09:37:23,023 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-25 09:37:24,030 - src.search_optimizer - DEBUG - 分词结果: 烘干机 -> ['烘干机']
+2025-11-25 09:37:24,030 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-25 09:37:24,030 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-25 09:37:24,030 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-25 09:37:24,031 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E7%83%98%E5%B9%B2%E6%9C%BA
+2025-11-25 09:37:26,571 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399020', 链接文本='查看详情'
+2025-11-25 09:37:26,572 - src.parser - DEBUG - 从表格第2列获取商品名: '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]'
+2025-11-25 09:37:26,572 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419339020', 链接文本='查看详情'
+2025-11-25 09:37:26,573 - src.parser - DEBUG - 从表格第2列获取商品名: '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]'
+2025-11-25 09:37:26,573 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3920610000', 链接文本='39206100.00'
+2025-11-25 09:37:26,574 - src.parser - DEBUG - 从表格第2列获取商品名: '有机玻璃板烘干机用'
+2025-11-25 09:37:26,574 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 09:37:26,575 - src.parser - DEBUG - 从表格第2列获取商品名: '自动下料烘干机'
+2025-11-25 09:37:26,575 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7019909000', 链接文本='70199090.00'
+2025-11-25 09:37:26,576 - src.parser - DEBUG - 从表格第2列获取商品名: '玻纤布复合材料'
+2025-11-25 09:37:26,576 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7019909000', 链接文本='70199090.00'
+2025-11-25 09:37:26,577 - src.parser - DEBUG - 从表格第2列获取商品名: '耐高温布'
+2025-11-25 09:37:26,577 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8414593000', 链接文本='84145930.00'
+2025-11-25 09:37:26,578 - src.parser - DEBUG - 从表格第2列获取商品名: '工业用烘干设备离心式通风机'
+2025-11-25 09:37:26,578 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 09:37:26,579 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机'
+2025-11-25 09:37:26,579 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:26,580 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(支撑臂)'
+2025-11-25 09:37:26,580 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:26,581 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(接线盒及线路板)'
+2025-11-25 09:37:26,581 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:26,581 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(开关电源)'
+2025-11-25 09:37:26,584 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451210000', 链接文本='84512100.00'
+2025-11-25 09:37:26,585 - src.parser - DEBUG - 从表格第2列获取商品名: '纺织品烘干机'
+2025-11-25 09:37:26,585 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451210000', 链接文本='84512100.00'
+2025-11-25 09:37:26,585 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机'
+2025-11-25 09:37:26,586 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451900000', 链接文本='84519000.00'
+2025-11-25 09:37:26,587 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机冲压件'
+2025-11-25 09:37:26,588 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8516799000', 链接文本='85167990.00'
+2025-11-25 09:37:26,588 - src.parser - DEBUG - 从表格第2列获取商品名: '果蔬烘干机'
+2025-11-25 09:37:26,589 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8516909000', 链接文本='85169090.00'
+2025-11-25 09:37:26,589 - src.parser - DEBUG - 从表格第2列获取商品名: '石英加热管'
+2025-11-25 09:37:26,589 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8537101101', 链接文本='85371011.01'
+2025-11-25 09:37:26,590 - src.parser - DEBUG - 从表格第2列获取商品名: '控制进水柜'
+2025-11-25 09:37:26,590 - src.parser - INFO - 从搜索结果中提取到 17 条记录
+2025-11-25 09:37:26,590 - src.scraper - DEBUG - 提取到的商品名称列表: ['其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]', '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]', '有机玻璃板烘干机用', '自动下料烘干机', '玻纤布复合材料']...
+2025-11-25 09:37:26,591 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]' -> partial=1.00, token_sort=0.18, token_set=0.18, max=1.00
+2025-11-25 09:37:26,591 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]' -> partial=1.00, token_sort=0.10, token_set=0.10, max=1.00
+2025-11-25 09:37:26,591 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '有机玻璃板烘干机用' -> partial=1.00, token_sort=0.50, token_set=0.50, max=1.00
+2025-11-25 09:37:26,592 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '自动下料烘干机' -> partial=1.00, token_sort=0.60, token_set=0.60, max=1.00
+2025-11-25 09:37:26,592 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '玻纤布复合材料' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:26,592 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '耐高温布' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:26,593 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '工业用烘干设备离心式通风机' -> partial=0.67, token_sort=0.38, token_set=0.38, max=0.67
+2025-11-25 09:37:26,593 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(支撑臂)' -> partial=1.00, token_sort=0.46, token_set=0.46, max=1.00
+2025-11-25 09:37:26,593 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(接线盒及线路板)' -> partial=1.00, token_sort=0.35, token_set=0.35, max=1.00
+2025-11-25 09:37:26,594 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(开关电源)' -> partial=1.00, token_sort=0.43, token_set=0.43, max=1.00
+2025-11-25 09:37:26,594 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '纺织品烘干机' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 09:37:26,594 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机冲压件' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 09:37:26,594 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '果蔬烘干机' -> partial=1.00, token_sort=0.75, token_set=0.75, max=1.00
+2025-11-25 09:37:26,595 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '石英加热管' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:26,595 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '控制进水柜' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:26,595 - src.scraper - INFO - 找到最佳匹配: '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]' (相似度: 1.00)
+2025-11-25 09:37:26,596 - src.scraper - DEBUG - 尝试候选 1/17: 其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer] (相似度: 1.00)
+2025-11-25 09:37:26,596 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-25 09:37:26,596 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/8419399020
+2025-11-25 09:37:27,968 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-25 09:37:27,968 - src.scraper - INFO - 查询成功: 烘干机 -> 84193990.20
+2025-11-25 09:37:27,975 - src.storage - INFO - 单个结果已保存到: data/output\test_fix_001.json
+2025-11-25 09:37:27,979 - src.scraper - INFO - 会话已关闭
+2025-11-25 09:37:35,095 - src.parser - INFO - DataParser 初始化完成
+2025-11-25 09:37:35,096 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-25 09:37:35,096 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-25 09:37:35,097 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 09:37:35,098 - src.scraper - INFO - 开始查询商品: 烘干机
+2025-11-25 09:37:36,085 - src.search_optimizer - DEBUG - 分词结果: 烘干机 -> ['烘干机']
+2025-11-25 09:37:36,085 - src.search_optimizer - INFO - 为 '烘干机' 生成了 1 个搜索关键词: ['烘干机']
+2025-11-25 09:37:36,085 - src.scraper - INFO - 尝试关键词 1/1: 烘干机
+2025-11-25 09:37:36,086 - src.scraper - INFO - 搜索关键词: 烘干机
+2025-11-25 09:37:36,086 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E7%83%98%E5%B9%B2%E6%9C%BA
+2025-11-25 09:37:38,694 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399020', 链接文本='查看详情'
+2025-11-25 09:37:38,695 - src.parser - DEBUG - 从表格第2列获取商品名: '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]'
+2025-11-25 09:37:38,696 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419339020', 链接文本='查看详情'
+2025-11-25 09:37:38,696 - src.parser - DEBUG - 从表格第2列获取商品名: '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]'
+2025-11-25 09:37:38,697 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3920610000', 链接文本='39206100.00'
+2025-11-25 09:37:38,697 - src.parser - DEBUG - 从表格第2列获取商品名: '有机玻璃板烘干机用'
+2025-11-25 09:37:38,699 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 09:37:38,700 - src.parser - DEBUG - 从表格第2列获取商品名: '自动下料烘干机'
+2025-11-25 09:37:38,700 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7019909000', 链接文本='70199090.00'
+2025-11-25 09:37:38,701 - src.parser - DEBUG - 从表格第2列获取商品名: '玻纤布复合材料'
+2025-11-25 09:37:38,701 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7019909000', 链接文本='70199090.00'
+2025-11-25 09:37:38,702 - src.parser - DEBUG - 从表格第2列获取商品名: '耐高温布'
+2025-11-25 09:37:38,702 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8414593000', 链接文本='84145930.00'
+2025-11-25 09:37:38,702 - src.parser - DEBUG - 从表格第2列获取商品名: '工业用烘干设备离心式通风机'
+2025-11-25 09:37:38,703 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 09:37:38,703 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机'
+2025-11-25 09:37:38,704 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:38,704 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(支撑臂)'
+2025-11-25 09:37:38,705 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:38,705 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(接线盒及线路板)'
+2025-11-25 09:37:38,706 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419909000', 链接文本='84199090.00'
+2025-11-25 09:37:38,706 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机部件(开关电源)'
+2025-11-25 09:37:38,706 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451210000', 链接文本='84512100.00'
+2025-11-25 09:37:38,707 - src.parser - DEBUG - 从表格第2列获取商品名: '纺织品烘干机'
+2025-11-25 09:37:38,707 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451210000', 链接文本='84512100.00'
+2025-11-25 09:37:38,708 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机'
+2025-11-25 09:37:38,708 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8451900000', 链接文本='84519000.00'
+2025-11-25 09:37:38,708 - src.parser - DEBUG - 从表格第2列获取商品名: '烘干机冲压件'
+2025-11-25 09:37:38,709 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8516799000', 链接文本='85167990.00'
+2025-11-25 09:37:38,709 - src.parser - DEBUG - 从表格第2列获取商品名: '果蔬烘干机'
+2025-11-25 09:37:38,709 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8516909000', 链接文本='85169090.00'
+2025-11-25 09:37:38,710 - src.parser - DEBUG - 从表格第2列获取商品名: '石英加热管'
+2025-11-25 09:37:38,710 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8537101101', 链接文本='85371011.01'
+2025-11-25 09:37:38,710 - src.parser - DEBUG - 从表格第2列获取商品名: '控制进水柜'
+2025-11-25 09:37:38,711 - src.parser - INFO - 从搜索结果中提取到 17 条记录
+2025-11-25 09:37:38,712 - src.scraper - DEBUG - 提取到的商品名称列表: ['其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]', '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]', '有机玻璃板烘干机用', '自动下料烘干机', '玻纤布复合材料']...
+2025-11-25 09:37:38,713 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]' -> partial=1.00, token_sort=0.18, token_set=0.18, max=1.00
+2025-11-25 09:37:38,713 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '冷冻或喷雾式烟丝烘干机(冷冻或喷雾式烟丝烘干机)[Frozen or spray cut tobacco dryer]' -> partial=1.00, token_sort=0.10, token_set=0.10, max=1.00
+2025-11-25 09:37:38,713 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '有机玻璃板烘干机用' -> partial=1.00, token_sort=0.50, token_set=0.50, max=1.00
+2025-11-25 09:37:38,714 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '自动下料烘干机' -> partial=1.00, token_sort=0.60, token_set=0.60, max=1.00
+2025-11-25 09:37:38,714 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '玻纤布复合材料' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:38,714 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '耐高温布' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:38,716 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '工业用烘干设备离心式通风机' -> partial=0.67, token_sort=0.38, token_set=0.38, max=0.67
+2025-11-25 09:37:38,716 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(支撑臂)' -> partial=1.00, token_sort=0.46, token_set=0.46, max=1.00
+2025-11-25 09:37:38,717 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(接线盒及线路板)' -> partial=1.00, token_sort=0.35, token_set=0.35, max=1.00
+2025-11-25 09:37:38,718 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机部件(开关电源)' -> partial=1.00, token_sort=0.43, token_set=0.43, max=1.00
+2025-11-25 09:37:38,718 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '纺织品烘干机' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 09:37:38,719 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '烘干机冲压件' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 09:37:38,719 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '果蔬烘干机' -> partial=1.00, token_sort=0.75, token_set=0.75, max=1.00
+2025-11-25 09:37:38,719 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '石英加热管' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:38,720 - src.search_optimizer - DEBUG - 相似度计算: '烘干机' vs '控制进水柜' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 09:37:38,720 - src.scraper - INFO - 找到最佳匹配: '其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer]' (相似度: 1.00)
+2025-11-25 09:37:38,720 - src.scraper - DEBUG - 尝试候选 1/17: 其他烟丝烘干机(其他烟丝烘干机)[Tobacco dryer] (相似度: 1.00)
+2025-11-25 09:37:38,720 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/8419399020
+2025-11-25 09:37:38,721 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/8419399020
+2025-11-25 09:37:40,116 - src.parser - INFO - 成功解析HS编码: 84193990.20 - 其他烟丝烘干机
+2025-11-25 09:37:40,117 - src.scraper - INFO - 查询成功: 烘干机 -> 84193990.20
+2025-11-25 09:37:40,119 - src.storage - INFO - 单个结果已保存到: data/output\hs_84193990_20.json
+2025-11-25 09:37:40,121 - src.scraper - INFO - 会话已关闭
+2025-11-25 11:14:16,254 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 11:15:19,350 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 11:15:19,371 - src.parser - INFO - DataParser 初始化完成
+2025-11-25 11:15:19,376 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-25 11:15:19,378 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-25 11:15:19,380 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-25 11:15:20,373 - src.search_optimizer - DEBUG - 分词结果: 苹果 -> ['苹果']
+2025-11-25 11:15:20,374 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-25 11:15:20,374 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-25 11:15:20,375 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-25 11:15:20,375 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C
+2025-11-25 11:15:30,974 - src.scraper - WARNING - _make_request 执行失败 (尝试 1/4): HTTPSConnectionPool(host='www.i5a6.com', port=443): Read timed out. (read timeout=10)，2秒后重试...
+2025-11-25 11:15:32,975 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C
+2025-11-25 11:15:40,720 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009710000', 链接文本='查看详情'
+2025-11-25 11:15:40,800 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:15:40,864 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0808100000', 链接文本='查看详情'
+2025-11-25 11:15:40,936 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜苹果(鲜苹果)[Apples, fresh]'
+2025-11-25 11:15:40,957 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009790000', 链接文本='查看详情'
+2025-11-25 11:15:40,958 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:15:40,959 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0813300000', 链接文本='查看详情'
+2025-11-25 11:15:40,960 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]'
+2025-11-25 11:15:40,960 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:15:40,961 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果'
+2025-11-25 11:15:40,962 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1302199099', 链接文本='13021990.99'
+2025-11-25 11:15:40,963 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果提取物'
+2025-11-25 11:15:40,963 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2006009090', 链接文本='20060090.90'
+2025-11-25 11:15:40,964 - src.parser - DEBUG - 从表格第2列获取商品名: 'FD苹果N'
+2025-11-25 11:15:40,964 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:15:40,965 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-苹果酸'
+2025-11-25 11:15:40,965 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:15:40,966 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果酸'
+2025-11-25 11:15:40,968 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2924199090', 链接文本='29241990.90'
+2025-11-25 11:15:40,971 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-瓜氨酸 DL-苹果酸'
+2025-11-25 11:15:40,972 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2925290090', 链接文本='29252900.90'
+2025-11-25 11:15:40,973 - src.parser - DEBUG - 从表格第2列获取商品名: '二精氨酸苹果酸'
+2025-11-25 11:15:40,973 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:15:40,975 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53843'
+2025-11-25 11:15:40,976 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:15:40,976 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53844'
+2025-11-25 11:15:40,977 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:15:40,978 - src.parser - DEBUG - 从表格第2列获取商品名: '青苹果香精DM-21699'
+2025-11-25 11:15:40,979 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:15:40,981 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精(APPLE FLAVOR)'
+2025-11-25 11:15:40,981 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3824909990', 链接文本='38249099.90'
+2025-11-25 11:15:40,982 - src.parser - DEBUG - 从表格第2列获取商品名: '镀镍添加剂'
+2025-11-25 11:15:40,982 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8438600000', 链接文本='84386000.00'
+2025-11-25 11:15:40,986 - src.parser - DEBUG - 从表格第2列获取商品名: '榨汁机'
+2025-11-25 11:15:40,986 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8471504090', 链接文本='84715040.90'
+2025-11-25 11:15:40,987 - src.parser - DEBUG - 从表格第2列获取商品名: '电脑主机'
+2025-11-25 11:15:40,987 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8517121029', 链接文本='85171210.29'
+2025-11-25 11:15:41,023 - src.parser - DEBUG - 从表格第2列获取商品名: '数字式手机A1528'
+2025-11-25 11:15:41,024 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-25 11:15:41,027 - src.scraper - DEBUG - 提取到的商品名称列表: ['白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '鲜苹果(鲜苹果)[Apples, fresh]', '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]', '苹果']...
+2025-11-25 11:15:41,029 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:15:41,030 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '鲜苹果(鲜苹果)[Apples, fresh]' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:15:41,030 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:15:41,031 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]' -> partial=1.00, token_sort=0.05, token_set=0.05, max=1.00
+2025-11-25 11:15:41,031 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果提取物' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:41,032 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'FD苹果N' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:41,032 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-苹果酸' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:41,032 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果酸' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:15:41,036 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-瓜氨酸 DL-苹果酸' -> partial=1.00, token_sort=0.29, token_set=0.29, max=1.00
+2025-11-25 11:15:41,037 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '二精氨酸苹果酸' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:15:41,037 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53843' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:15:41,038 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53844' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:15:41,038 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '青苹果香精DM-21699' -> partial=1.00, token_sort=0.27, token_set=0.27, max=1.00
+2025-11-25 11:15:41,039 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精(APPLE FLAVOR)' -> partial=1.00, token_sort=0.20, token_set=0.20, max=1.00
+2025-11-25 11:15:41,039 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '镀镍添加剂' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:41,039 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '榨汁机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:41,040 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '电脑主机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:41,040 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '数字式手机A1528' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:41,041 - src.scraper - INFO - 找到最佳匹配: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' (相似度: 1.00)
+2025-11-25 11:15:41,042 - src.scraper - DEBUG - 尝试候选 1/19: 白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter] (相似度: 1.00)
+2025-11-25 11:15:41,042 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:15:41,043 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:15:42,610 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-25 11:15:42,611 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-25 11:15:42,612 - src.scraper - INFO - 开始批量查询，共 2 个商品
+2025-11-25 11:15:42,612 - src.scraper - INFO - 处理 1/2: 苹果
+2025-11-25 11:15:42,613 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-25 11:15:42,614 - src.search_optimizer - DEBUG - 分词结果: 苹果 -> ['苹果']
+2025-11-25 11:15:42,614 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-25 11:15:42,615 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-25 11:15:42,615 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-25 11:15:42,618 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C
+2025-11-25 11:15:44,425 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009710000', 链接文本='查看详情'
+2025-11-25 11:15:44,425 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:15:44,426 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0808100000', 链接文本='查看详情'
+2025-11-25 11:15:44,427 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜苹果(鲜苹果)[Apples, fresh]'
+2025-11-25 11:15:44,427 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009790000', 链接文本='查看详情'
+2025-11-25 11:15:44,428 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:15:44,429 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0813300000', 链接文本='查看详情'
+2025-11-25 11:15:44,430 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]'
+2025-11-25 11:15:44,430 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:15:44,431 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果'
+2025-11-25 11:15:44,432 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1302199099', 链接文本='13021990.99'
+2025-11-25 11:15:44,434 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果提取物'
+2025-11-25 11:15:44,434 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2006009090', 链接文本='20060090.90'
+2025-11-25 11:15:44,435 - src.parser - DEBUG - 从表格第2列获取商品名: 'FD苹果N'
+2025-11-25 11:15:44,435 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:15:44,436 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-苹果酸'
+2025-11-25 11:15:44,436 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:15:44,436 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果酸'
+2025-11-25 11:15:44,437 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2924199090', 链接文本='29241990.90'
+2025-11-25 11:15:44,437 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-瓜氨酸 DL-苹果酸'
+2025-11-25 11:15:44,438 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2925290090', 链接文本='29252900.90'
+2025-11-25 11:15:44,438 - src.parser - DEBUG - 从表格第2列获取商品名: '二精氨酸苹果酸'
+2025-11-25 11:15:44,439 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:15:44,439 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53843'
+2025-11-25 11:15:44,440 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:15:44,440 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53844'
+2025-11-25 11:15:44,440 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:15:44,441 - src.parser - DEBUG - 从表格第2列获取商品名: '青苹果香精DM-21699'
+2025-11-25 11:15:44,441 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:15:44,442 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精(APPLE FLAVOR)'
+2025-11-25 11:15:44,442 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3824909990', 链接文本='38249099.90'
+2025-11-25 11:15:44,443 - src.parser - DEBUG - 从表格第2列获取商品名: '镀镍添加剂'
+2025-11-25 11:15:44,443 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8438600000', 链接文本='84386000.00'
+2025-11-25 11:15:44,444 - src.parser - DEBUG - 从表格第2列获取商品名: '榨汁机'
+2025-11-25 11:15:44,445 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8471504090', 链接文本='84715040.90'
+2025-11-25 11:15:44,445 - src.parser - DEBUG - 从表格第2列获取商品名: '电脑主机'
+2025-11-25 11:15:44,446 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8517121029', 链接文本='85171210.29'
+2025-11-25 11:15:44,446 - src.parser - DEBUG - 从表格第2列获取商品名: '数字式手机A1528'
+2025-11-25 11:15:44,447 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-25 11:15:44,448 - src.scraper - DEBUG - 提取到的商品名称列表: ['白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '鲜苹果(鲜苹果)[Apples, fresh]', '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]', '苹果']...
+2025-11-25 11:15:44,451 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:15:44,452 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '鲜苹果(鲜苹果)[Apples, fresh]' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:15:44,452 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:15:44,453 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]' -> partial=1.00, token_sort=0.05, token_set=0.05, max=1.00
+2025-11-25 11:15:44,453 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果提取物' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:44,454 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'FD苹果N' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:44,454 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-苹果酸' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:15:44,454 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果酸' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:15:44,455 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-瓜氨酸 DL-苹果酸' -> partial=1.00, token_sort=0.29, token_set=0.29, max=1.00
+2025-11-25 11:15:44,455 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '二精氨酸苹果酸' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:15:44,457 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53843' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:15:44,457 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53844' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:15:44,458 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '青苹果香精DM-21699' -> partial=1.00, token_sort=0.27, token_set=0.27, max=1.00
+2025-11-25 11:15:44,458 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精(APPLE FLAVOR)' -> partial=1.00, token_sort=0.20, token_set=0.20, max=1.00
+2025-11-25 11:15:44,459 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '镀镍添加剂' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:44,463 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '榨汁机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:44,464 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '电脑主机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:44,464 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '数字式手机A1528' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:44,465 - src.scraper - INFO - 找到最佳匹配: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' (相似度: 1.00)
+2025-11-25 11:15:44,467 - src.scraper - DEBUG - 尝试候选 1/19: 白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter] (相似度: 1.00)
+2025-11-25 11:15:44,471 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:15:44,473 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:15:47,246 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-25 11:15:47,270 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-25 11:15:47,274 - src.scraper - INFO - 处理 2/2: 香蕉
+2025-11-25 11:15:47,339 - src.scraper - INFO - 开始查询商品: 香蕉
+2025-11-25 11:15:47,344 - src.search_optimizer - DEBUG - 分词结果: 香蕉 -> ['香蕉']
+2025-11-25 11:15:47,347 - src.search_optimizer - INFO - 为 '香蕉' 生成了 1 个搜索关键词: ['香蕉']
+2025-11-25 11:15:47,356 - src.scraper - INFO - 尝试关键词 1/1: 香蕉
+2025-11-25 11:15:47,371 - src.scraper - INFO - 搜索关键词: 香蕉
+2025-11-25 11:15:47,379 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E9%A6%99%E8%95%89
+2025-11-25 11:15:48,905 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0803900000', 链接文本='查看详情'
+2025-11-25 11:15:48,906 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]'
+2025-11-25 11:15:48,907 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0803000000', 链接文本='查看详情'
+2025-11-25 11:15:48,907 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜或干的香蕉,包括芭蕉'
+2025-11-25 11:15:48,908 - src.parser - DEBUG - 跳过已作废的HS编码: 08030000.00 - 鲜或干的香蕉,包括芭蕉
+2025-11-25 11:15:48,908 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0604910090', 链接文本='06049100.90'
+2025-11-25 11:15:48,908 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜香蕉叶'
+2025-11-25 11:15:48,909 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009901000', 链接文本='20099010.00'
+2025-11-25 11:15:48,910 - src.parser - DEBUG - 从表格第2列获取商品名: '高登塞克苹果芒果香蕉汁'
+2025-11-25 11:15:48,910 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009901000', 链接文本='20099010.00'
+2025-11-25 11:15:48,911 - src.parser - DEBUG - 从表格第2列获取商品名: '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,'
+2025-11-25 11:15:48,912 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2103909000', 链接文本='21039090.00'
+2025-11-25 11:15:48,912 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉浓缩香料'
+2025-11-25 11:15:48,913 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2202900099', 链接文本='22029000.99'
+2025-11-25 11:15:48,914 - src.parser - DEBUG - 从表格第2列获取商品名: '果汁豆奶香蕉味'
+2025-11-25 11:15:48,914 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8903100000', 链接文本='89031000.00'
+2025-11-25 11:15:48,916 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉船型充气艇'
+2025-11-25 11:15:48,917 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:15:48,917 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉草'
+2025-11-25 11:15:48,918 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1401200090', 链接文本='14012000.90'
+2025-11-25 11:15:48,920 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉藤条'
+2025-11-25 11:15:48,920 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2008999000', 链接文本='20089990.00'
+2025-11-25 11:15:48,921 - src.parser - DEBUG - 从表格第2列获取商品名: '冻干脱水无花果'
+2025-11-25 11:15:48,921 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:15:48,922 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉味食用香精'
+2025-11-25 11:15:48,923 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302900000', 链接文本='33029000.00'
+2025-11-25 11:15:48,923 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉香基'
+2025-11-25 11:15:48,924 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7320109000', 链接文本='73201090.00'
+2025-11-25 11:15:48,924 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉脚'
+2025-11-25 11:15:48,925 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 11:15:48,925 - src.parser - DEBUG - 从表格第2列获取商品名: '热风循环烘箱'
+2025-11-25 11:15:48,926 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8441901090', 链接文本='84419010.90'
+2025-11-25 11:15:48,926 - src.parser - DEBUG - 从表格第2列获取商品名: '切纸机零部件-香蕉轮'
+2025-11-25 11:15:48,927 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/9615190090', 链接文本='96151900.90'
+2025-11-25 11:15:48,928 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉夹'
+2025-11-25 11:15:48,928 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-25 11:15:48,929 - src.scraper - DEBUG - 提取到的商品名称列表: ['鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]', '鲜香蕉叶', '高登塞克苹果芒果香蕉汁', '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,', '香蕉浓缩香料']...
+2025-11-25 11:15:48,929 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]' -> partial=1.00, token_sort=0.09, token_set=0.09, max=1.00
+2025-11-25 11:15:48,930 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '鲜香蕉叶' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:15:48,930 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '高登塞克苹果芒果香蕉汁' -> partial=1.00, token_sort=0.31, token_set=0.31, max=1.00
+2025-11-25 11:15:48,931 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:15:48,931 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉浓缩香料' -> partial=1.00, token_sort=0.50, token_set=0.50, max=1.00
+2025-11-25 11:15:48,935 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '果汁豆奶香蕉味' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:15:48,936 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉船型充气艇' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:15:48,937 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉草' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:15:48,937 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉藤条' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:15:48,938 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '冻干脱水无花果' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:48,938 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉味食用香精' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:15:48,939 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉香基' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:15:48,939 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉脚' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:15:48,939 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '热风循环烘箱' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:15:48,940 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '切纸机零部件-香蕉轮' -> partial=1.00, token_sort=0.33, token_set=0.33, max=1.00
+2025-11-25 11:15:48,940 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉夹' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:15:48,940 - src.scraper - INFO - 找到最佳匹配: '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]' (相似度: 1.00)
+2025-11-25 11:15:48,941 - src.scraper - DEBUG - 尝试候选 1/16: 鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried] (相似度: 1.00)
+2025-11-25 11:15:48,941 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0803900000
+2025-11-25 11:15:48,942 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/0803900000
+2025-11-25 11:15:50,435 - src.parser - INFO - 成功解析HS编码: 08039000.00 - 鲜或干的香蕉
+2025-11-25 11:15:50,436 - src.scraper - INFO - 查询成功: 香蕉 -> 08039000.00
+2025-11-25 11:15:50,436 - src.scraper - INFO - 批量查询完成，成功: 2/2
+2025-11-25 11:15:50,438 - src.scraper - INFO - 根据HS编码查询: 08081000.00
+2025-11-25 11:15:50,438 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0808100000
+2025-11-25 11:15:50,439 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/0808100000
+2025-11-25 11:15:55,176 - src.parser - INFO - 成功解析HS编码: 08081000.00 - 鲜苹果
+2025-11-25 11:20:16,600 - src.storage - INFO - DataStorage 初始化完成，输出目录: data/output
+2025-11-25 11:20:16,617 - src.parser - INFO - DataParser 初始化完成
+2025-11-25 11:20:16,621 - src.search_optimizer - INFO - SearchOptimizer 初始化完成
+2025-11-25 11:20:16,624 - src.scraper - INFO - HSCodeScraper 初始化完成
+2025-11-25 11:20:16,625 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-25 11:20:17,716 - src.search_optimizer - DEBUG - 分词结果: 苹果 -> ['苹果']
+2025-11-25 11:20:17,727 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-25 11:20:17,732 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-25 11:20:17,734 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-25 11:20:17,738 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C
+2025-11-25 11:20:20,844 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009710000', 链接文本='查看详情'
+2025-11-25 11:20:20,847 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:20:20,850 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0808100000', 链接文本='查看详情'
+2025-11-25 11:20:20,854 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜苹果(鲜苹果)[Apples, fresh]'
+2025-11-25 11:20:20,857 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009790000', 链接文本='查看详情'
+2025-11-25 11:20:20,860 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:20:20,862 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0813300000', 链接文本='查看详情'
+2025-11-25 11:20:20,865 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]'
+2025-11-25 11:20:20,869 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:20:20,873 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果'
+2025-11-25 11:20:20,875 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1302199099', 链接文本='13021990.99'
+2025-11-25 11:20:20,878 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果提取物'
+2025-11-25 11:20:20,880 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2006009090', 链接文本='20060090.90'
+2025-11-25 11:20:20,883 - src.parser - DEBUG - 从表格第2列获取商品名: 'FD苹果N'
+2025-11-25 11:20:20,888 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:20:20,891 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-苹果酸'
+2025-11-25 11:20:20,893 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:20:20,896 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果酸'
+2025-11-25 11:20:20,898 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2924199090', 链接文本='29241990.90'
+2025-11-25 11:20:20,901 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-瓜氨酸 DL-苹果酸'
+2025-11-25 11:20:20,906 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2925290090', 链接文本='29252900.90'
+2025-11-25 11:20:20,908 - src.parser - DEBUG - 从表格第2列获取商品名: '二精氨酸苹果酸'
+2025-11-25 11:20:20,910 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:20:20,912 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53843'
+2025-11-25 11:20:20,914 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:20:20,917 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53844'
+2025-11-25 11:20:20,921 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:20:20,923 - src.parser - DEBUG - 从表格第2列获取商品名: '青苹果香精DM-21699'
+2025-11-25 11:20:20,928 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:20:20,930 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精(APPLE FLAVOR)'
+2025-11-25 11:20:20,933 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3824909990', 链接文本='38249099.90'
+2025-11-25 11:20:20,937 - src.parser - DEBUG - 从表格第2列获取商品名: '镀镍添加剂'
+2025-11-25 11:20:20,939 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8438600000', 链接文本='84386000.00'
+2025-11-25 11:20:20,942 - src.parser - DEBUG - 从表格第2列获取商品名: '榨汁机'
+2025-11-25 11:20:20,943 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8471504090', 链接文本='84715040.90'
+2025-11-25 11:20:20,946 - src.parser - DEBUG - 从表格第2列获取商品名: '电脑主机'
+2025-11-25 11:20:20,948 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8517121029', 链接文本='85171210.29'
+2025-11-25 11:20:20,950 - src.parser - DEBUG - 从表格第2列获取商品名: '数字式手机A1528'
+2025-11-25 11:20:20,955 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-25 11:20:20,957 - src.scraper - DEBUG - 提取到的商品名称列表: ['白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '鲜苹果(鲜苹果)[Apples, fresh]', '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]', '苹果']...
+2025-11-25 11:20:20,961 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:20:20,965 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '鲜苹果(鲜苹果)[Apples, fresh]' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:20:20,969 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:20:20,973 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]' -> partial=1.00, token_sort=0.05, token_set=0.05, max=1.00
+2025-11-25 11:20:20,976 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果提取物' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:20,980 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'FD苹果N' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:20,982 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-苹果酸' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:20,984 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果酸' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:20:20,988 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-瓜氨酸 DL-苹果酸' -> partial=1.00, token_sort=0.29, token_set=0.29, max=1.00
+2025-11-25 11:20:20,991 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '二精氨酸苹果酸' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:20:20,995 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53843' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:20:20,997 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53844' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:20:21,000 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '青苹果香精DM-21699' -> partial=1.00, token_sort=0.27, token_set=0.27, max=1.00
+2025-11-25 11:20:21,004 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精(APPLE FLAVOR)' -> partial=1.00, token_sort=0.20, token_set=0.20, max=1.00
+2025-11-25 11:20:21,007 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '镀镍添加剂' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:21,011 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '榨汁机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:21,013 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '电脑主机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:21,015 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '数字式手机A1528' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:21,022 - src.scraper - INFO - 找到最佳匹配: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' (相似度: 1.00)
+2025-11-25 11:20:21,026 - src.scraper - DEBUG - 尝试候选 1/19: 白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter] (相似度: 1.00)
+2025-11-25 11:20:21,029 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:20:21,031 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:20:22,411 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-25 11:20:22,414 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-25 11:20:22,417 - src.scraper - INFO - 开始批量查询，共 2 个商品
+2025-11-25 11:20:22,420 - src.scraper - INFO - 处理 1/2: 苹果
+2025-11-25 11:20:22,423 - src.scraper - INFO - 开始查询商品: 苹果
+2025-11-25 11:20:22,426 - src.search_optimizer - DEBUG - 分词结果: 苹果 -> ['苹果']
+2025-11-25 11:20:22,428 - src.search_optimizer - INFO - 为 '苹果' 生成了 1 个搜索关键词: ['苹果']
+2025-11-25 11:20:22,431 - src.scraper - INFO - 尝试关键词 1/1: 苹果
+2025-11-25 11:20:22,433 - src.scraper - INFO - 搜索关键词: 苹果
+2025-11-25 11:20:22,436 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E8%8B%B9%E6%9E%9C
+2025-11-25 11:20:23,841 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009710000', 链接文本='查看详情'
+2025-11-25 11:20:23,844 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:20:23,846 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0808100000', 链接文本='查看详情'
+2025-11-25 11:20:23,849 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜苹果(鲜苹果)[Apples, fresh]'
+2025-11-25 11:20:23,853 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009790000', 链接文本='查看详情'
+2025-11-25 11:20:23,856 - src.parser - DEBUG - 从表格第2列获取商品名: '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]'
+2025-11-25 11:20:23,859 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0813300000', 链接文本='查看详情'
+2025-11-25 11:20:23,861 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]'
+2025-11-25 11:20:23,864 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:20:23,869 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果'
+2025-11-25 11:20:23,871 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1302199099', 链接文本='13021990.99'
+2025-11-25 11:20:23,873 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果提取物'
+2025-11-25 11:20:23,877 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2006009090', 链接文本='20060090.90'
+2025-11-25 11:20:23,879 - src.parser - DEBUG - 从表格第2列获取商品名: 'FD苹果N'
+2025-11-25 11:20:23,881 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:20:23,886 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-苹果酸'
+2025-11-25 11:20:23,888 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2918199090', 链接文本='29181990.90'
+2025-11-25 11:20:23,891 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果酸'
+2025-11-25 11:20:23,893 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2924199090', 链接文本='29241990.90'
+2025-11-25 11:20:23,896 - src.parser - DEBUG - 从表格第2列获取商品名: 'L-瓜氨酸 DL-苹果酸'
+2025-11-25 11:20:23,897 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2925290090', 链接文本='29252900.90'
+2025-11-25 11:20:23,900 - src.parser - DEBUG - 从表格第2列获取商品名: '二精氨酸苹果酸'
+2025-11-25 11:20:23,904 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:20:23,906 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53843'
+2025-11-25 11:20:23,910 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109001', 链接文本='33021090.01'
+2025-11-25 11:20:23,911 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精53844'
+2025-11-25 11:20:23,915 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:20:23,917 - src.parser - DEBUG - 从表格第2列获取商品名: '青苹果香精DM-21699'
+2025-11-25 11:20:23,920 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:20:23,922 - src.parser - DEBUG - 从表格第2列获取商品名: '苹果香精(APPLE FLAVOR)'
+2025-11-25 11:20:23,926 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3824909990', 链接文本='38249099.90'
+2025-11-25 11:20:23,928 - src.parser - DEBUG - 从表格第2列获取商品名: '镀镍添加剂'
+2025-11-25 11:20:23,930 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8438600000', 链接文本='84386000.00'
+2025-11-25 11:20:23,932 - src.parser - DEBUG - 从表格第2列获取商品名: '榨汁机'
+2025-11-25 11:20:23,934 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8471504090', 链接文本='84715040.90'
+2025-11-25 11:20:23,938 - src.parser - DEBUG - 从表格第2列获取商品名: '电脑主机'
+2025-11-25 11:20:23,940 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8517121029', 链接文本='85171210.29'
+2025-11-25 11:20:23,943 - src.parser - DEBUG - 从表格第2列获取商品名: '数字式手机A1528'
+2025-11-25 11:20:23,945 - src.parser - INFO - 从搜索结果中提取到 19 条记录
+2025-11-25 11:20:23,948 - src.scraper - DEBUG - 提取到的商品名称列表: ['白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '鲜苹果(鲜苹果)[Apples, fresh]', '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]', '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]', '苹果']...
+2025-11-25 11:20:23,953 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:20:23,960 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '鲜苹果(鲜苹果)[Apples, fresh]' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:20:23,964 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '白利糖度值超过20的苹果汁(白利糖度值超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' -> partial=1.00, token_sort=0.02, token_set=0.02, max=1.00
+2025-11-25 11:20:23,967 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果干(苹果干品目0801至0806的干果除外)[Apples, other than that of headings No.08.01 to 08.06]' -> partial=1.00, token_sort=0.05, token_set=0.05, max=1.00
+2025-11-25 11:20:23,971 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果提取物' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:23,974 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'FD苹果N' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:23,977 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-苹果酸' -> partial=1.00, token_sort=0.57, token_set=0.57, max=1.00
+2025-11-25 11:20:23,980 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果酸' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:20:23,982 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs 'L-瓜氨酸 DL-苹果酸' -> partial=1.00, token_sort=0.29, token_set=0.29, max=1.00
+2025-11-25 11:20:23,986 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '二精氨酸苹果酸' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:20:23,989 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53843' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:20:23,991 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精53844' -> partial=1.00, token_sort=0.36, token_set=0.36, max=1.00
+2025-11-25 11:20:23,996 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '青苹果香精DM-21699' -> partial=1.00, token_sort=0.27, token_set=0.27, max=1.00
+2025-11-25 11:20:23,998 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '苹果香精(APPLE FLAVOR)' -> partial=1.00, token_sort=0.20, token_set=0.20, max=1.00
+2025-11-25 11:20:24,000 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '镀镍添加剂' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:24,005 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '榨汁机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:24,007 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '电脑主机' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:24,011 - src.search_optimizer - DEBUG - 相似度计算: '苹果' vs '数字式手机A1528' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:24,014 - src.scraper - INFO - 找到最佳匹配: '白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter]' (相似度: 1.00)
+2025-11-25 11:20:24,016 - src.scraper - DEBUG - 尝试候选 1/19: 白利糖度值不超过20的苹果汁(白利糖度值不超过20的苹果汁未发酵及未加酒精的,不论是否加糖或其他甜物质)[Apple juice, of a Brix value not exceeding 20, unfermented and not containing added spirit, whether or not containing added sugar or other sweetening matter] (相似度: 1.00)
+2025-11-25 11:20:24,020 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:20:24,022 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/2009710000
+2025-11-25 11:20:25,861 - src.parser - INFO - 成功解析HS编码: 20097100.00 - 白利糖度值不超过20的苹果汁
+2025-11-25 11:20:25,863 - src.scraper - INFO - 查询成功: 苹果 -> 20097100.00
+2025-11-25 11:20:25,866 - src.scraper - INFO - 处理 2/2: 香蕉
+2025-11-25 11:20:25,870 - src.scraper - INFO - 开始查询商品: 香蕉
+2025-11-25 11:20:25,873 - src.search_optimizer - DEBUG - 分词结果: 香蕉 -> ['香蕉']
+2025-11-25 11:20:25,875 - src.search_optimizer - INFO - 为 '香蕉' 生成了 1 个搜索关键词: ['香蕉']
+2025-11-25 11:20:25,877 - src.scraper - INFO - 尝试关键词 1/1: 香蕉
+2025-11-25 11:20:25,879 - src.scraper - INFO - 搜索关键词: 香蕉
+2025-11-25 11:20:25,881 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/key/%E9%A6%99%E8%95%89
+2025-11-25 11:20:27,370 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0803900000', 链接文本='查看详情'
+2025-11-25 11:20:27,372 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]'
+2025-11-25 11:20:27,376 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0803000000', 链接文本='查看详情'
+2025-11-25 11:20:27,379 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜或干的香蕉,包括芭蕉'
+2025-11-25 11:20:27,381 - src.parser - DEBUG - 跳过已作废的HS编码: 08030000.00 - 鲜或干的香蕉,包括芭蕉
+2025-11-25 11:20:27,383 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0604910090', 链接文本='06049100.90'
+2025-11-25 11:20:27,387 - src.parser - DEBUG - 从表格第2列获取商品名: '鲜香蕉叶'
+2025-11-25 11:20:27,391 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009901000', 链接文本='20099010.00'
+2025-11-25 11:20:27,393 - src.parser - DEBUG - 从表格第2列获取商品名: '高登塞克苹果芒果香蕉汁'
+2025-11-25 11:20:27,396 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2009901000', 链接文本='20099010.00'
+2025-11-25 11:20:27,398 - src.parser - DEBUG - 从表格第2列获取商品名: '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,'
+2025-11-25 11:20:27,402 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2103909000', 链接文本='21039090.00'
+2025-11-25 11:20:27,407 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉浓缩香料'
+2025-11-25 11:20:27,409 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2202900099', 链接文本='22029000.99'
+2025-11-25 11:20:27,412 - src.parser - DEBUG - 从表格第2列获取商品名: '果汁豆奶香蕉味'
+2025-11-25 11:20:27,414 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8903100000', 链接文本='89031000.00'
+2025-11-25 11:20:27,416 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉船型充气艇'
+2025-11-25 11:20:27,420 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/0602909199', 链接文本='06029091.99'
+2025-11-25 11:20:27,424 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉草'
+2025-11-25 11:20:27,426 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/1401200090', 链接文本='14012000.90'
+2025-11-25 11:20:27,429 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉藤条'
+2025-11-25 11:20:27,430 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/2008999000', 链接文本='20089990.00'
+2025-11-25 11:20:27,432 - src.parser - DEBUG - 从表格第2列获取商品名: '冻干脱水无花果'
+2025-11-25 11:20:27,436 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302109090', 链接文本='33021090.90'
+2025-11-25 11:20:27,439 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉味食用香精'
+2025-11-25 11:20:27,441 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/3302900000', 链接文本='33029000.00'
+2025-11-25 11:20:27,444 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉香基'
+2025-11-25 11:20:27,446 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/7320109000', 链接文本='73201090.00'
+2025-11-25 11:20:27,448 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉脚'
+2025-11-25 11:20:27,449 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8419399090', 链接文本='84193990.90'
+2025-11-25 11:20:27,455 - src.parser - DEBUG - 从表格第2列获取商品名: '热风循环烘箱'
+2025-11-25 11:20:27,457 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/8441901090', 链接文本='84419010.90'
+2025-11-25 11:20:27,459 - src.parser - DEBUG - 从表格第2列获取商品名: '切纸机零部件-香蕉轮'
+2025-11-25 11:20:27,461 - src.parser - DEBUG - 提取到链接: href='//www.i5a6.com/hscode/detail/9615190090', 链接文本='96151900.90'
+2025-11-25 11:20:27,463 - src.parser - DEBUG - 从表格第2列获取商品名: '香蕉夹'
+2025-11-25 11:20:27,465 - src.parser - INFO - 从搜索结果中提取到 16 条记录
+2025-11-25 11:20:27,466 - src.scraper - DEBUG - 提取到的商品名称列表: ['鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]', '鲜香蕉叶', '高登塞克苹果芒果香蕉汁', '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,', '香蕉浓缩香料']...
+2025-11-25 11:20:27,472 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]' -> partial=1.00, token_sort=0.09, token_set=0.09, max=1.00
+2025-11-25 11:20:27,475 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '鲜香蕉叶' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:20:27,478 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '高登塞克苹果芒果香蕉汁' -> partial=1.00, token_sort=0.31, token_set=0.31, max=1.00
+2025-11-25 11:20:27,480 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '曲匹凯纳橙草莓香蕉汁曲匹凯纳,水果消毒,打浆,' -> partial=1.00, token_sort=0.16, token_set=0.16, max=1.00
+2025-11-25 11:20:27,483 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉浓缩香料' -> partial=1.00, token_sort=0.50, token_set=0.50, max=1.00
+2025-11-25 11:20:27,489 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '果汁豆奶香蕉味' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:20:27,492 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉船型充气艇' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:20:27,495 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉草' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:20:27,497 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉藤条' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:20:27,502 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '冻干脱水无花果' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:27,505 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉味食用香精' -> partial=1.00, token_sort=0.44, token_set=0.44, max=1.00
+2025-11-25 11:20:27,616 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉香基' -> partial=1.00, token_sort=0.67, token_set=0.67, max=1.00
+2025-11-25 11:20:27,650 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉脚' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:20:27,653 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '热风循环烘箱' -> partial=0.00, token_sort=0.00, token_set=0.00, max=0.00
+2025-11-25 11:20:27,657 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '切纸机零部件-香蕉轮' -> partial=1.00, token_sort=0.33, token_set=0.33, max=1.00
+2025-11-25 11:20:27,659 - src.search_optimizer - DEBUG - 相似度计算: '香蕉' vs '香蕉夹' -> partial=1.00, token_sort=0.80, token_set=0.80, max=1.00
+2025-11-25 11:20:27,662 - src.scraper - INFO - 找到最佳匹配: '鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried]' (相似度: 1.00)
+2025-11-25 11:20:27,695 - src.scraper - DEBUG - 尝试候选 1/16: 鲜或干的香蕉(鲜或干的香蕉)[Other bananas, fresh or dried] (相似度: 1.00)
+2025-11-25 11:20:27,697 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0803900000
+2025-11-25 11:20:27,700 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/0803900000
+2025-11-25 11:20:29,086 - src.parser - INFO - 成功解析HS编码: 08039000.00 - 鲜或干的香蕉
+2025-11-25 11:20:29,088 - src.scraper - INFO - 查询成功: 香蕉 -> 08039000.00
+2025-11-25 11:20:29,091 - src.scraper - INFO - 批量查询完成，成功: 2/2
+2025-11-25 11:20:29,094 - src.scraper - INFO - 根据HS编码查询: 08081000.00
+2025-11-25 11:20:29,097 - src.scraper - INFO - 获取详情: https://www.i5a6.com/hscode/detail/0808100000
+2025-11-25 11:20:29,099 - src.scraper - DEBUG - 请求 GET https://www.i5a6.com/hscode/detail/0808100000
+2025-11-25 11:20:30,583 - src.parser - INFO - 成功解析HS编码: 08081000.00 - 鲜苹果

@@ -1,0 +1,56 @@
+[project]
+name = "mcp-hs-code-query"
+version = "1.0.0"
+description = "MCP server for intelligent HS code queries - 智能海关HS编码查询服务"
+readme = "README_MCP.md"
+requires-python = ">=3.8"
+authors = [
+    { name = "HS Code Query Team" }
+]
+license = { text = "MIT" }
+keywords = ["mcp", "hs-code", "customs", "model-context-protocol", "ai", "claude"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=4.9.3",
+    "jieba>=0.42.1",
+    "rapidfuzz>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/mcp-hs-code-query"
+Repository = "https://github.com/yourusername/mcp-hs-code-query"
+Documentation = "https://github.com/yourusername/mcp-hs-code-query#readme"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+]
+
+[project.scripts]
+mcp-hs-code-query = "mcp_hs_code_query.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mcp_hs_code_query", "config", "src"]
+
+[tool.setuptools.package-data]
+mcp_hs_code_query = ["*.py"]
+config = ["*.py"]
+src = ["*.py"]

@@ -1,0 +1,7 @@
+include README_MCP.md
+include LICENSE
+include PUBLISH_GUIDE.md
+include requirements.txt
+recursive-include src *.py
+recursive-include config *.py
+recursive-include mcp_hs_code_query *.py

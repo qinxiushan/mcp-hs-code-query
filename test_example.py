@@ -46,7 +46,7 @@ def test_batch_query():
     
     try:
         # 批量查询
-        products = ["苹果", "笔记本电脑", "T恤"]
+        products = ["苹果手机", "笔记本电脑", "T恤"]
         print(f"\n查询商品列表: {products}")
         
         results = scraper.batch_query(products)

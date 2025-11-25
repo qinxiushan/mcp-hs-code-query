@@ -150,16 +150,16 @@ class SearchOptimizer:
         str1_lower = str1_clean.lower()
         str2_lower = str2_clean.lower()
         
-        if str1_lower in str2_lower:
-            # 根据长度比例调整分数
-            # 例如："苹果" in "鲜苹果" -> 2/3 = 0.67，调整为 0.95
-            # 例如："苹果" in "白利糖度值不超过20的苹果汁" -> 2/15 = 0.13，调整为 0.85
-            length_ratio = len(str1_clean) / len(str2_clean)
-            return 0.85 + (length_ratio * 0.15)  # 0.85 - 1.0
+        # if str1_lower in str2_lower:
+        #     # 根据长度比例调整分数
+        #     # 例如："苹果" in "鲜苹果" -> 2/3 = 0.67，调整为 0.95
+        #     # 例如："苹果" in "白利糖度值不超过20的苹果汁" -> 2/15 = 0.13，调整为 0.85
+        #     length_ratio = len(str1_clean) / len(str2_clean)
+        #     return 0.85 + (length_ratio * 0.15)  # 0.85 - 1.0
         
-        if str2_lower in str1_lower:
-            length_ratio = len(str2_clean) / len(str1_clean)
-            return 0.85 + (length_ratio * 0.15)
+        # if str2_lower in str1_lower:
+        #     length_ratio = len(str2_clean) / len(str1_clean)
+        #     return 0.85 + (length_ratio * 0.15)
         
         # 3. 使用 rapidfuzz 进行模糊匹配
         # partial_ratio: 部分匹配，适合子串查找
