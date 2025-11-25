@@ -12,9 +12,45 @@
 ### 计划中
 - [ ] 添加Excel导出功能
 - [ ] 支持代理池
-- [ ] 实现并发查询
+- [ ] 实现并发查询（利用 FastAPI 异步特性）
 - [ ] 添加数据缓存机制
 - [ ] 支持多网站聚合查询
+- [ ] WebSocket 实时推送
+- [ ] GraphQL API 支持
+
+---
+
+## [1.1.0] - 2025-11-24
+
+### 🚀 框架升级
+
+#### 迁移到 FastAPI
+- **变更**: 从 Flask 迁移到 FastAPI 框架
+- **动机**: 提供现代化 API 框架、自动文档、更好的类型安全
+- **主要改进**:
+  - ✅ 自动生成 Swagger UI (`/docs`) 和 ReDoc (`/redoc`) 文档
+  - ✅ Pydantic 数据模型自动验证请求
+  - ✅ 更好的异步支持和性能
+  - ✅ 完整的类型提示
+  - ✅ 统一的异常处理 (HTTPException)
+- **端口变化**: 5000 → 8000
+- **依赖变化**: 
+  - 移除: flask, flask-cors, werkzeug
+  - 新增: fastapi, uvicorn[standard], pydantic
+- **文档**: [CHANGELOG_003](./CHANGELOG_003_迁移到FastAPI.md)
+
+### 📝 文档更新
+- 更新 API_README.md 为 FastAPI 版本
+- 添加 Swagger UI 使用说明
+- 更新所有示例中的端口号
+- 添加部署指南（uvicorn/gunicorn）
+- 更新 README.md 添加 API 特性说明
+- 更新 QUICK_START.md 添加 API 使用方法
+
+### 🔧 配置更新
+- 更新 ngrok 脚本端口 (8000)
+- 更新 requirements_api.txt 依赖
+- 保持 API 端点向后兼容
 
 ---
 

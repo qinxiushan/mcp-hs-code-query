@@ -149,22 +149,82 @@ class HSCodeScraper:
         for idx, keyword in enumerate(keywords, 1):
             logger.info(f"尝试关键词 {idx}/{len(keywords)}: {keyword}")
             
-            # 搜索
-            detail_url = self.search_product(keyword)
+            # 搜索并获取所有匹配结果（按相似度排序）
+            search_results = self._search_with_all_candidates(keyword, product_name)
             
-            if detail_url:
-                # 获取详情
-                result = self.get_hs_code_detail(detail_url)
-                
-                if result['search_success']:
-                    logger.info(f"查询成功: {product_name} -> {result['hs_code']}")
-                    return result
+            if search_results:
+                # 尝试每个候选结果（从相似度最高的开始）
+                for candidate_idx, (detail_url, similarity, matched_name) in enumerate(search_results, 1):
+                    logger.debug(f"尝试候选 {candidate_idx}/{len(search_results)}: {matched_name} (相似度: {similarity:.2f})")
+                    
+                    # 获取详情
+                    result = self.get_hs_code_detail(detail_url)
+                    
+                    # 检查是否成功且未作废
+                    if result['search_success']:
+                        result['query_product_name'] = product_name  # 添加原始查询商品名
+                        logger.info(f"查询成功: {product_name} -> {result['hs_code']}")
+                        return result
+                    elif '已作废' in result.get('error_message', ''):
+                        logger.debug(f"候选 {candidate_idx} 已作废，尝试下一个")
+                        continue
         
-        # 所有关键词都未找到结果
+        # 所有关键词和候选都未找到有效结果
         logger.warning(f"查询失败: {product_name}，已尝试 {len(keywords)} 个关键词")
         result = create_empty_result()
+        result['query_product_name'] = product_name  # 添加原始查询商品名
         result['error_message'] = f"未找到匹配结果，已尝试关键词: {', '.join(keywords)}"
         return result
+    
+    def _search_with_all_candidates(self, keyword: str, product_name: str) -> List[tuple]:
+        """
+        搜索并返回所有候选结果（按相似度排序）
+        
+        Args:
+            keyword: 搜索关键词
+            product_name: 原始商品名称
+            
+        Returns:
+            [(detail_url, similarity, matched_name), ...] 按相似度降序排列
+        """
+        try:
+            logger.info(f"搜索关键词: {keyword}")
+            
+            # 构建搜索URL
+            search_url = f"{BASE_URL}/hscode/key/{quote(keyword)}"
+            response = self._make_request(search_url)
+            
+            # 解析搜索结果
+            results = self.parser.parse_search_results(response.text, product_name)
+            
+            if results:
+                logger.debug(f"提取到的商品名称列表: {[r['product_name'] for r in results][:5]}...")
+                
+                # 计算所有结果的相似度并排序
+                candidates = []
+                for item in results:
+                    similarity = self.search_optimizer.calculate_similarity(
+                        product_name, 
+                        item['product_name']
+                    )
+                    candidates.append((item['detail_url'], similarity, item['product_name']))
+                
+                # 按相似度降序排序
+                candidates.sort(key=lambda x: x[1], reverse=True)
+                
+                # 记录最佳匹配
+                if candidates:
+                    best_match = candidates[0]
+                    logger.info(f"找到最佳匹配: '{best_match[2]}' (相似度: {best_match[1]:.2f})")
+                
+                return candidates
+            else:
+                logger.warning(f"关键词 '{keyword}' 未找到搜索结果")
+                return []
+                
+        except Exception as e:
+            logger.error(f"搜索失败: {str(e)}")
+            return []
     
     def query_by_hs_code(self, hs_code: str) -> Dict:
         """

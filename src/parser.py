@@ -68,8 +68,14 @@ class DataParser:
                     
                     logger.debug(f"提取到链接: href='{href}', 链接文本='{product_name}'")
                     
-                    # 如果链接文本是"查看详情"等无意义文本，尝试从父元素获取商品名称
-                    if product_name in ['查看详情', '详情', '']:
+                    # 判断链接文本是否为无意义文本或HS编码格式
+                    is_meaningless = (
+                        product_name in ['查看详情', '详情', ''] or
+                        # 检测是否为HS编码格式（纯数字+可能的点号）
+                        re.match(r'^\d+(\.\d+)?$', product_name.strip())
+                    )
+                    
+                    if is_meaningless:
                         # 尝试从同一行的其他单元格获取商品名称
                         parent_row = link.find_parent('tr')
                         if parent_row:
@@ -78,6 +84,21 @@ class DataParser:
                             if len(cells) >= 2:
                                 product_name = safe_get_text(cells[1])
                                 logger.debug(f"从表格第2列获取商品名: '{product_name}'")
+                    
+                    # 检测是否为已作废的HS编码
+                    # 方法1: 检查商品名称中是否包含"已作废"标记
+                    is_deprecated = '已作废' in product_name or '(已作废)' in product_name
+                    
+                    # 方法2: 检查同一行是否有"已作废"标记
+                    if not is_deprecated:
+                        parent_row = link.find_parent('tr')
+                        if parent_row:
+                            row_text = safe_get_text(parent_row)
+                            is_deprecated = '已作废' in row_text or '(已作废)' in row_text
+                    
+                    if is_deprecated:
+                        logger.debug(f"跳过已作废的HS编码: {hs_code} - {product_name}")
+                        continue  # 跳过已作废的编码
                     
                     # 完整URL - 移除锚点和查询参数，只保留详情URL
                     clean_href = href.split('#')[0].split('?')[0]
@@ -179,6 +200,15 @@ class DataParser:
             
             # 提取HS编码
             result['hs_code'] = data_dict.get('商品编码', '')
+            
+            # 检查HS编码是否已作废
+            if result['hs_code'] and ('已作废' in result['hs_code'] or '(已作废)' in result['hs_code']):
+                logger.warning(f"详情页HS编码已作废: {result['hs_code']}")
+                # 返回空结果，标记为已作废
+                result['hs_code'] = ''
+                result['search_success'] = False
+                result['error_message'] = '该HS编码已作废'
+                return result
             
             # 提取商品名称
             result['product_name'] = data_dict.get('商品名称', '')

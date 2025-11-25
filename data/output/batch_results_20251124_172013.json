@@ -1,0 +1,748 @@
+{
+  "query_time": "2025-11-24 17:20:13",
+  "total_count": 33,
+  "success_count": 27,
+  "failed_count": 6,
+  "data": [
+    {
+      "query_product_name": "防白蚁耐候木油30个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 防白蚁耐候木油30个, 白蚁 耐候 木油 30, 白蚁耐候木油30, 白蚁 耐候 木油, 白蚁耐候木油"
+    },
+    {
+      "query_product_name": "20KG室内乳胶漆15个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 20KG室内乳胶漆15个, 20KG 室内 乳胶漆 15, 20KG室内乳胶漆15, 20KG 室内 乳胶漆, 20KG室内乳胶漆"
+    },
+    {
+      "query_product_name": "20KG3合1乳胶漆6个",
+      "hs_code": "84798200.90",
+      "product_name": "其他混合、搅拌、轧碎、研磨机器",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:功能;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他混合、搅拌、轧碎、研磨机器包括筛选、均化、乳化机器",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "20KG外墙墙漆6个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 20KG外墙墙漆6个, 20KG 外墙 墙漆, 20KG外墙墙漆, 20KG 外墙, 20KG外墙"
+    },
+    {
+      "query_product_name": "水泥73袋",
+      "hs_code": "25233000.00",
+      "product_name": "矾土水泥",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:品牌（中文或外文名称）;6:厂家名称;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "矾土水泥",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "水泥72袋",
+      "hs_code": "68109990.00",
+      "product_name": "水泥,混凝土或人造石制其他制品",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途（铁道用等）;5:种类（砖、瓦、管及建筑构件钢筋混凝土板等）;6:材料（水泥、混凝土、人造石）;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "水泥,混凝土或人造石制其他制品",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "摄像头4个               录像机1台",
+      "hs_code": "39269010.00",
+      "product_name": "塑料制机器及仪器用零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:材质（塑料品种）;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "塑料制机器及仪器用零件",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "断路器1P(16A14个 10A22个 6A14个）断路器2P(32A9个）配电箱NX30(8个）漏电保护器10个 时控开关KG316T 6个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 断路器1P(16A14个 10A22个 6A14个）断路器2P(32A9个）配电箱NX30(8个）漏电保护器10个 时控开关KG316T 6个, 断路器 1P 16A14 10A22 6A14 断路器 2P 32A9 配电箱 NX30 漏电 保护器 10 时控 开关 KG316T, 断路器1P16A1410A226A14断路器2P32A9配电箱NX30漏电保护器10时控开关KG316T, 断路器 1P 16A14 10A22 6A14 断路器 2P 32A9 配电箱 NX30 漏电 保护器 10 时控 开关, 断路器1P16A1410A226A14断路器2P32A9配电箱NX30漏电保护器10时控开关"
+    },
+    {
+      "query_product_name": "冷藏展示柜1个",
+      "hs_code": "84185000.00",
+      "product_name": "装有冷藏或冷冻装置的其他设备,用于存储及展示",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:品牌（中文或外文名称）;6:型号;7:容积;8:最低制冷温度;9:GTIN;10:CAS;11:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "L/M",
+        "details": [
+          {
+            "code": "L",
+            "name": "入境民用商品认证"
+          },
+          {
+            "code": "M",
+            "name": "进口商品检验"
+          }
+        ]
+      },
+      "description": "装有冷藏或冷冻装置的其他设备,用于存储及展示包括柜、箱、展示台、陈列箱及类似品",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "冰箱1个",
+      "hs_code": "91059900.00",
+      "product_name": "其他机械钟",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途（闹钟、天文钟等）;5:驱动方式（电子、机械）;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "只",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他机械钟闹钟、挂钟除外",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "微波炉1个",
+      "hs_code": "85165000.00",
+      "product_name": "微波炉",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:加热原理;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "L/M/R",
+        "details": [
+          {
+            "code": "L",
+            "name": "入境民用商品认证"
+          },
+          {
+            "code": "M",
+            "name": "进口商品检验"
+          },
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "微波炉",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "抽油烟机",
+      "hs_code": "84146010.00",
+      "product_name": "抽油烟机",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:罩的平面最大边长;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "L",
+        "details": [
+          {
+            "code": "L",
+            "name": "入境民用商品认证"
+          }
+        ]
+      },
+      "description": "抽油烟机指罩的平面最大边长不超过120厘米,装有风扇的",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "热水壶7个",
+      "hs_code": "39241000.00",
+      "product_name": "塑料制餐具及厨房用具",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:材质（塑料品种）;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "R",
+        "details": [
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "塑料制餐具及厨房用具",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "饮料玻璃杯24个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 饮料玻璃杯24个, 饮料 玻璃杯 24, 饮料玻璃杯24, 饮料 玻璃杯, 饮料玻璃杯"
+    },
+    {
+      "query_product_name": "打印机1个",
+      "hs_code": "85168000.00",
+      "product_name": "加热电阻器",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "个",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "加热电阻器",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "椅子12个",
+      "hs_code": "76109000.00",
+      "product_name": "其他铝制结构体及其部件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:材质（铝）;5:种类（塔楼、桥梁体段等）;6:加工方法（铆接、栓接、钻孔、弯曲等）;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他铝制结构体及其部件包括结构体用的已加工铝板、型材、管子及类似品",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "1L木材染料80个",
+      "hs_code": "",
+      "product_name": "",
+      "declaration_elements": "",
+      "first_unit": "",
+      "second_unit": "",
+      "customs_supervision_conditions": {
+        "code": "",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "",
+        "details": []
+      },
+      "description": "",
+      "search_success": false,
+      "error_message": "未找到匹配结果，已尝试关键词: 1L木材染料80个, 1L 木材 染料 80, 1L木材染料80, 1L 木材 染料, 1L木材染料"
+    },
+    {
+      "query_product_name": "6.6L热水器7个",
+      "hs_code": "84199010.00",
+      "product_name": "热水器用零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途（适用于XX品牌XX机或通用于XX机等）;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "热水器用零件",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "胶水、彩砂",
+      "hs_code": "35061000.90",
+      "product_name": "其他适于作胶或粘合剂的零售产品",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:包装规格;6:成分含量;7:品牌（中文或外文名称）;8:型号;9:GTIN;10:CAS;11:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他适于作胶或粘合剂的零售产品零售包装每件净重不超过1千克",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "刀具套装1套",
+      "hs_code": "82111000.00",
+      "product_name": "以刀为主的成套货品",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:材质（不锈钢制等）;5:式样（刃面固定、刃面不固定）;6:是否成套;7:品牌（中文或外文名称）;8:型号;9:GTIN;10:CAS;11:其他;",
+      "first_unit": "千克",
+      "second_unit": "套",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "以刀为主的成套货品",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "绞肉机1个",
+      "hs_code": "84385000.00",
+      "product_name": "肉类或家禽加工机器",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "R",
+        "details": [
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "肉类或家禽加工机器",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "空调内机6个",
+      "hs_code": "39269090.90",
+      "product_name": "其他塑料制品",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:材质（塑料品种）;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他塑料制品包括品目3901至3914所列材料的制品",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "空调外机6个",
+      "hs_code": "84159010.00",
+      "product_name": "其他制冷量≤4千大卡/时空调的零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:适用机型（适用于xx品牌xx制冷量xx机）;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他制冷量≤4千大卡/时空调的零件指编号84151010、84151021、84158110、84158210所列设备的零件",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "迷你冰箱6个",
+      "hs_code": "40070000.00",
+      "product_name": "硫化橡胶线及绳",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:外观（板、片、带等）;5:截面尺寸;6:材质（橡胶品种）;7:是否硫化;8:品牌（中文或外文名称）;9:型号;10:GTIN;11:CAS;12:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "硫化橡胶线及绳",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "水泵1个",
+      "hs_code": "39173900.00",
+      "product_name": "塑料制的其他管子",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:成分;5:是否装有附件;6:爆破压力;7:是否经加强;8:是否与其他材料合制;9:种类（硬管、软管）;10:品牌（中文或外文名称）;11:型号;12:用途;13:GTIN;14:CAS;15:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "塑料制的其他管子经加强或与其他材料合制的",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "水泵1个",
+      "hs_code": "39173900.00",
+      "product_name": "塑料制的其他管子",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:成分;5:是否装有附件;6:爆破压力;7:是否经加强;8:是否与其他材料合制;9:种类（硬管、软管）;10:品牌（中文或外文名称）;11:型号;12:用途;13:GTIN;14:CAS;15:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "塑料制的其他管子经加强或与其他材料合制的",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "婴儿床1个",
+      "hs_code": "94029000.00",
+      "product_name": "其他医疗,外科,兽医用家具及零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:配置附属装置;6:是否带医疗用具;7:品牌（中文或外文名称）;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "件",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "其他医疗,外科,兽医用家具及零件如手术台、检查台、带机械装置的病床等",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "烘烤箱1个",
+      "hs_code": "85166090.00",
+      "product_name": "其他电热炉",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:加热原理;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "个",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "L/M",
+        "details": [
+          {
+            "code": "L",
+            "name": "入境民用商品认证"
+          },
+          {
+            "code": "M",
+            "name": "进口商品检验"
+          }
+        ]
+      },
+      "description": "其他电热炉包括电热板、加热环、烧烤炉及烘烤器",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "雪糕冷柜1个",
+      "hs_code": "21050000.00",
+      "product_name": "冰淇淋及其他冰制食品",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:包装规格;5:品牌（中文或外文名称）;6:GTIN;7:CAS;8:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "AB",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          },
+          {
+            "code": "B",
+            "name": "出境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "R/S",
+        "details": [
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          },
+          {
+            "code": "S",
+            "name": "出口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "冰淇淋及其他冰制食品不论是否含可可",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "制冰机1个",
+      "hs_code": "39269010.00",
+      "product_name": "塑料制机器及仪器用零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:材质（塑料品种）;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "塑料制机器及仪器用零件",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "净水器1个",
+      "hs_code": "84212110.00",
+      "product_name": "家用型过滤或净化水的机器及装置",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:品牌（中文或外文名称）;6:型号;7:原理;8:单位时间水处理量;9:GTIN;10:CAS;11:其他;",
+      "first_unit": "台",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "R",
+        "details": [
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "家用型过滤或净化水的机器及装置",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "咖啡机1个",
+      "hs_code": "85169090.00",
+      "product_name": "品目8516所列货品的其他零件",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途（适用于XX品牌XX机或通用于XX机等）;5:品牌（中文或外文名称）;6:型号;7:GTIN;8:CAS;9:其他;",
+      "first_unit": "千克",
+      "second_unit": "无",
+      "customs_supervision_conditions": {
+        "code": "无",
+        "details": []
+      },
+      "inspection_quarantine": {
+        "code": "无",
+        "details": []
+      },
+      "description": "品目8516所列货品的其他零件",
+      "search_success": true,
+      "error_message": ""
+    },
+    {
+      "query_product_name": "咖啡保温加热壶1个",
+      "hs_code": "85167190.00",
+      "product_name": "其他电热咖啡机和茶壶",
+      "declaration_elements": "1:品名;2:品牌类型;3:出口享惠情况;4:用途;5:加热原理;6:品牌（中文或外文名称）;7:型号;8:GTIN;9:CAS;10:其他;",
+      "first_unit": "个",
+      "second_unit": "千克",
+      "customs_supervision_conditions": {
+        "code": "A",
+        "details": [
+          {
+            "code": "A",
+            "name": "入境货物通关单"
+          }
+        ]
+      },
+      "inspection_quarantine": {
+        "code": "L/R",
+        "details": [
+          {
+            "code": "L",
+            "name": "入境民用商品认证"
+          },
+          {
+            "code": "R",
+            "name": "进口食品卫生监督检验"
+          }
+        ]
+      },
+      "description": "其他电热咖啡机和茶壶",
+      "search_success": true,
+      "error_message": ""
+    }
+  ]
+}

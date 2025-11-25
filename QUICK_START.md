@@ -11,7 +11,40 @@ pip install -r requirements.txt
 
 ## 二、使用方法
 
-### 方法1: 命令行使用（推荐）
+### 方法1: API 服务（推荐用于 AI 智能体集成）
+
+#### 安装 API 依赖
+```cmd
+pip install -r requirements_api.txt
+```
+
+#### 启动服务
+```cmd
+python api_server.py
+```
+
+#### 访问文档
+打开浏览器访问:
+- Swagger UI: http://localhost:8000/docs
+- ReDoc: http://localhost:8000/redoc
+
+#### 测试 API
+```cmd
+python test_api.py
+```
+
+#### 公网访问（ngrok）
+```cmd
+# 自动启动 API + ngrok
+python start_api_with_ngrok.py
+
+# 或使用批处理
+start_ngrok.bat
+```
+
+---
+
+### 方法2: 命令行使用
 
 #### 1. 单个商品查询
 ```cmd
@@ -30,7 +63,7 @@ python main.py -f data/input/products.txt
 
 查询结果会自动保存到 `data/output/` 目录下的JSON文件中。
 
-### 方法2: 交互式测试
+### 方法3: 交互式测试
 
 运行测试示例：
 ```cmd
@@ -39,7 +72,7 @@ python test_example.py
 
 然后按照提示选择测试类型。
 
-### 方法3: Python代码调用
+### 方法4: Python 代码调用
 
 创建自己的Python脚本：
 

@@ -135,6 +135,7 @@ def create_empty_result() -> dict:
         包含所有字段的空字典
     """
     return {
+        "query_product_name": "",  # 原始查询的商品名称
         "hs_code": "",
         "product_name": "",
         "declaration_elements": "",

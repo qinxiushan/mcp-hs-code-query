@@ -27,7 +27,7 @@ HEADERS = {
 }
 
 # 日志配置
-LOG_LEVEL = "INFO"
+LOG_LEVEL = "DEBUG"  # 可选: DEBUG, INFO, WARNING, ERROR, CRITICAL
 LOG_FORMAT = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 LOG_FILE = "logs/hs_code_scraper.log"
 

@@ -1,0 +1,11 @@
+# API 服务依赖包（FastAPI）
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# 原有依赖
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+jieba>=0.42.1
+rapidfuzz>=3.0.0

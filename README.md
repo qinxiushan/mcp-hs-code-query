@@ -11,6 +11,8 @@
 - ✅ **重试机制**: 网络请求失败自动重试
 - ✅ **完整数据**: 提取HS编码、申报要素、监管条件等完整信息
 - ✅ **JSON导出**: 结果以JSON格式保存
+- ✅ **REST API**: FastAPI 驱动的高性能 API 服务
+- ✅ **自动文档**: Swagger UI 交互式 API 文档
 
 ## 提取的数据字段
 
@@ -44,8 +46,14 @@ data_search/
 │   ├── TEMPLATE.md        # 文档模板
 │   └── CHANGELOG_XXX_*.md # 具体修改记录
 ├── logs/                   # 日志文件
-├── requirements.txt        # 依赖包
-├── main.py                # 主入口
+├── requirements.txt        # 核心依赖包
+├── requirements_api.txt    # API 服务依赖包
+├── main.py                # 命令行入口
+├── api_server.py          # FastAPI 服务器
+├── test_api.py            # API 测试脚本
+├── start_api_with_ngrok.py # API + ngrok 启动器
+├── start_ngrok.bat        # ngrok 启动脚本
+├── API_README.md          # API 文档
 └── README.md              # 说明文档
 ```
 
@@ -65,7 +73,52 @@ pip install -r requirements.txt
 
 ## 使用方法
 
-### 命令行使用
+### 方式一: REST API 服务（推荐用于集成）
+
+#### 安装 API 依赖
+```bash
+pip install -r requirements_api.txt
+```
+
+#### 启动 API 服务
+```bash
+python api_server.py
+```
+
+服务启动后访问:
+- **Swagger UI 文档**: http://localhost:8000/docs
+- **ReDoc 文档**: http://localhost:8000/redoc
+- **API 首页**: http://localhost:8000/
+
+#### API 调用示例
+```python
+import requests
+
+# 查询商品
+response = requests.post(
+    'http://localhost:8000/api/query',
+    json={'product_name': '苹果'}
+)
+result = response.json()
+print(result)
+```
+
+详细 API 文档请查看 [API_README.md](API_README.md)
+
+#### 公网访问（使用 ngrok）
+```bash
+# 方式1: 使用自动脚本
+python start_api_with_ngrok.py
+
+# 方式2: 使用批处理文件
+start_ngrok.bat
+```
+
+详细 ngrok 配置请查看 [NGROK_SETUP.md](NGROK_SETUP.md)
+
+---
+
+### 方式二: 命令行使用
 
 #### 1. 单个商品查询
 
