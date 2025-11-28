@@ -1,6 +1,6 @@
 # MCP HS Code Query Server
 
-> 🚀 智能海关HS编码查询MCP服务器 - 支持通过uvx一键部署
+> 🚀 智能海关HS编码查询MCP服务器 - 双数据源主备模式 + 嵌入向量相似度匹配
 
 [![PyPI version](https://badge.fury.io/py/mcp-hs-code-query.svg)](https://pypi.org/project/mcp-hs-code-query/)
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/)
@@ -14,12 +14,36 @@
 
 ### ✨ 核心特性
 
-- ✅ **智能查询**: 中文分词 + 相似度匹配 + 自动选择最佳结果
+- ✅ **双数据源**: 主备模式，主数据源失败自动切换备用源
+  - 主数据源: hsciq.com (支持嵌入向量相似度)
+  - 备用数据源: i5a6.com (传统相似度匹配)
+- ✅ **嵌入向量匹配**: 使用 BGE 模型进行语义相似度计算，准确度更高
+- ✅ **智能查询**: 中文分词 + 多关键词尝试 + 自动选择最佳结果
 - ✅ **完整数据**: HS编码、申报要素、监管条件、检验检疫等完整信息
 - ✅ **批量支持**: 一次查询多个商品
+- ✅ **数据来源标识**: 每个结果标注数据来源和查询方式
+- ✅ **查询统计**: 实时统计主备数据源成功率
 - ✅ **MCP标准**: 符合Model Context Protocol规范
 - ✅ **一键部署**: 使用 `uvx` 零配置启动
 - ✅ **AI就绪**: 可被Claude Desktop、ChatGPT等AI平台调用
+
+## 🆕 v1.1.0 新特性
+
+### 双数据源主备模式
+- 主数据源查询失败时自动切换备用数据源
+- 每个查询结果包含 `data_source` 和 `query_method` 字段
+- 提高查询成功率，降低单点故障风险
+
+### 嵌入向量相似度匹配
+- 使用 BAAI/bge-small-zh-v1.5 模型
+- 语义级别的商品名称匹配
+- 智能缓存机制，避免重复编码
+- 查询准确度显著提升
+
+### 查询统计工具
+- 新增 `get_query_stats` 工具
+- 实时监控主备数据源使用情况
+- 统计成功率和失败率
 
 ## 🚀 快速开始
 

@@ -1,6 +1,7 @@
 # 字节编译文件
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 *.so
 

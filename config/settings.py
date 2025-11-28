@@ -15,7 +15,7 @@ REQUEST_DELAY = 1  # 请求间隔（秒），避免频繁请求
 
 # 搜索配置
 MAX_SEARCH_ATTEMPTS = 5  # 分词后最大搜索尝试次数
-MIN_SIMILARITY_SCORE = 0.6  # 最小相似度分数（0-1）
+MIN_SIMILARITY_SCORE = 0.5  # 最小相似度分数（0-1）
 
 # 请求头配置
 HEADERS = {

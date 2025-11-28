@@ -4,11 +4,12 @@
 修改历史:
 - 修复 #002 (2025-11-24): 改进中文文本相似度匹配算法
   详见: docs/CHANGELOG_002_改进相似度匹配算法.md
+- 2025-11-26: 添加基于 BGE 嵌入向量的语义相似度计算支持
 """
 import jieba
 from difflib import SequenceMatcher
 from rapidfuzz import fuzz
-from typing import List, Tuple
+from typing import List, Tuple, Optional
 import sys
 import os
 
@@ -19,15 +20,41 @@ from src.utils import setup_logger
 
 logger = setup_logger(__name__)
 
+# 延迟导入嵌入匹配器,仅在需要时加载
+_embedding_matcher = None
+
 
 class SearchOptimizer:
     """搜索优化器，负责分词和关键词组合"""
     
-    def __init__(self):
-        """初始化分词器"""
+    def __init__(self, use_embedding: bool = False, embedding_model: Optional[str] = None):
+        """
+        初始化分词器
+        
+        Args:
+            use_embedding: 是否使用嵌入向量进行语义相似度计算 (默认False,使用传统方法)
+            embedding_model: 嵌入模型名称 (默认使用 BAAI/bge-small-zh-v1.5)
+        """
         # 初始化jieba分词
         jieba.setLogLevel(jieba.logging.INFO)
-        logger.info("SearchOptimizer 初始化完成")
+        
+        self.use_embedding = use_embedding
+        self.embedding_model = embedding_model or "BAAI/bge-small-zh-v1.5"
+        
+        # 如果启用嵌入向量,加载模型
+        if self.use_embedding:
+            self._load_embedding_matcher()
+        
+        logger.info(f"SearchOptimizer 初始化完成 (嵌入向量: {self.use_embedding})")
+    
+    def _load_embedding_matcher(self):
+        """延迟加载嵌入匹配器"""
+        global _embedding_matcher
+        
+        if _embedding_matcher is None:
+            from src.embedding_matcher import get_embedding_matcher
+            _embedding_matcher = get_embedding_matcher(model_name=self.embedding_model)
+            logger.info("嵌入匹配器已加载")
     
     def segment_text(self, text: str) -> List[str]:
         """
@@ -116,17 +143,19 @@ class SearchOptimizer:
         logger.info(f"为 '{text}' 生成了 {len(unique_keywords)} 个搜索关键词: {unique_keywords[:max_attempts]}")
         return unique_keywords[:max_attempts]
     
-    @staticmethod
-    def calculate_similarity(str1: str, str2: str) -> float:
+    def calculate_similarity(self, str1: str, str2: str) -> float:
         """
-        计算两个字符串的相似度（改进版 - 支持中文模糊匹配）
+        计算两个字符串的相似度
         
-        使用多种策略组合：
-        1. 完全匹配 -> 1.0
-        2. 包含关系 -> 0.95
-        3. 部分比率匹配（rapidfuzz.fuzz.partial_ratio）-> 适合中文子串匹配
-        4. Token排序比率（rapidfuzz.fuzz.token_sort_ratio）-> 适合词序不同
-        5. Token集合比率（rapidfuzz.fuzz.token_set_ratio）-> 适合部分重叠
+        如果启用了嵌入向量 (use_embedding=True):
+            使用 BGE 模型计算语义相似度 (余弦相似度)
+        
+        否则使用传统方法组合：
+            1. 完全匹配 -> 1.0
+            2. 包含关系 -> 0.95
+            3. 部分比率匹配（rapidfuzz.fuzz.partial_ratio）-> 适合中文子串匹配
+            4. Token排序比率（rapidfuzz.fuzz.token_sort_ratio）-> 适合词序不同
+            5. Token集合比率（rapidfuzz.fuzz.token_set_ratio）-> 适合部分重叠
         
         Args:
             str1: 字符串1
@@ -135,6 +164,12 @@ class SearchOptimizer:
         Returns:
             相似度分数 (0-1)
         """
+        # 如果启用嵌入向量,使用语义相似度
+        if self.use_embedding:
+            global _embedding_matcher
+            if _embedding_matcher is None:
+                self._load_embedding_matcher()
+            return _embedding_matcher.calculate_similarity(str1, str2)
         if not str1 or not str2:
             return 0.0
         

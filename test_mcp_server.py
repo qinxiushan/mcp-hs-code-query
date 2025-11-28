@@ -16,7 +16,7 @@ def test_single_query():
     print("测试1: 单个查询 - 苹果")
     print("=" * 60)
     
-    result = query_hs_code("苹果")
+    result = query_hs_code("防白蚁耐候木油")
     
     if result.get('search_success'):
         print(f"✅ 查询成功!")
@@ -35,7 +35,7 @@ def test_batch_query():
     print("测试2: 批量查询 - 苹果, 香蕉")
     print("=" * 60)
     
-    result = batch_query_hs_codes(["苹果", "香蕉"])
+    result = batch_query_hs_codes(["防白蚁耐候木油", "香蕉"])
     
     print(f"总数: {result.get('total')}")
     print(f"成功: {result.get('successful')}")

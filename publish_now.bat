@@ -2,12 +2,14 @@
 chcp 65001 >nul
 REM ========================================
 REM  MCP HS Code Query - Quick Publish Guide
+REM  Version: 1.1.0 - Dual Data Sources
 REM  Token configured - Ready to publish!
 REM ========================================
 
 echo.
 echo ========================================================
-echo    MCP HS Code Query - Publish to PyPI
+echo    MCP HS Code Query v1.1.0 - Publish to PyPI
+echo    双数据源主备模式 + 嵌入向量相似度
 echo    Token configured [OK]
 echo ========================================================
 echo.
@@ -140,8 +142,8 @@ set /p confirm1="Confirm publishing to production PyPI? Type 'yes': "
 if /i "%confirm1%" NEQ "yes" goto menu
 
 echo.
-echo Final confirmation: Current version is 1.0.0
-set /p confirm2="Confirm publishing version 1.0.0? [yes/no]: "
+echo Final confirmation: Current version is 1.1.0
+set /p confirm2="Confirm publishing version 1.1.0? [yes/no]: "
 if /i "%confirm2%" NEQ "yes" goto menu
 
 echo.
@@ -197,7 +199,7 @@ echo  Recommended next steps:
 echo ========================================
 echo   1. Check your package page on PyPI
 echo   2. Create GitHub repository and push code
-echo   3. Create GitHub Release (v1.0.0)
+echo   3. Create GitHub Release (v1.1.0)
 echo   4. Share on social media
 echo   5. Add to MCP server list
 echo.

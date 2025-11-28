@@ -22,7 +22,7 @@ logger = setup_logger(__name__)
 app = FastAPI(
     title="HS 编码查询 API",
     description="根据商品名称查询海关 HS 编码及详细信息",
-    version="1.0.0",
+    version="1.1.0",
     docs_url="/docs",
     redoc_url="/redoc"
 )
@@ -76,7 +76,7 @@ async def index():
     """API 首页"""
     return {
         'service': 'HS 编码查询 API',
-        'version': '1.0.0',
+        'version': '1.1.0',
         'status': 'running',
         'docs': '/docs'
     }

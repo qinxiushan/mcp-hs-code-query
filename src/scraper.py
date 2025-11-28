@@ -29,7 +29,7 @@ class HSCodeScraper:
         self.session = requests.Session()
         self.session.headers.update(HEADERS)
         self.parser = DataParser()
-        self.search_optimizer = SearchOptimizer()
+        self.search_optimizer = SearchOptimizer(use_embedding=True)
         logger.info("HSCodeScraper 初始化完成")
     
     @retry_on_exception(exceptions=(requests.RequestException,))
